@@ -1,0 +1,186 @@
+{
+  "status": "EXACT FINITE AND SCALAR CHECKS PASSED; ANALYTIC PROOF REQUIRED",
+  "checks": [
+    "sqrt2_bracket",
+    "old_tree_box_minimum_eigenvalue",
+    "pi_upper_square",
+    "cross_derivative_magnitude_margin",
+    "exact_sqrt_eta",
+    "sqrt_r_upper",
+    "small_r_regime",
+    "outside_LOC_gap",
+    "LOC_norm_implication",
+    "tight_cut_C0_within_half_box",
+    "monotone_box_exit_loss_exceeds_eta",
+    "pair_covariance_bound",
+    "edge_ratio_constant",
+    "four_edge_norm_propagation",
+    "squared_diagonal_bound",
+    "raw_star_residual_bound",
+    "cone_size",
+    "generator_range",
+    "only_six_zero_residual_types",
+    "tree_minor_inverse_norm",
+    "off_face_mass_union_bound",
+    "mass_distance_bound",
+    "inside_natural_mass_neighborhood",
+    "natural_certificate_identity",
+    "natural_mass_radius",
+    "natural_local_target",
+    "local_branch_strict_global_gap",
+    "positive_new_cutwidth_bound",
+    "new_rational_cutwidth_bound_below_old_exact_value",
+    "new_circuit_coefficient_gain_exceeds_3eta"
+  ],
+  "delta_lower_bound": "1/1000000000000000000000000000000000000000000000000000000",
+  "pair_covariance_radius": "1/31250000000000000000000000",
+  "mass_distance_upper_bound": "1/2500000000",
+  "natural_mass_neighborhood_radius": "1/1073741824",
+  "tree_support_indices": [
+    455,
+    457,
+    904,
+    1794,
+    4438,
+    4600
+  ],
+  "tree_diagonal_minor_rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8
+  ],
+  "tree_diagonal_minor_inverse": [
+    [
+      "0",
+      "0",
+      "0",
+      "-1/24",
+      "0",
+      "1/12"
+    ],
+    [
+      "0",
+      "0",
+      "-1/12",
+      "5/24",
+      "0",
+      "-1/12"
+    ],
+    [
+      "0",
+      "-1/6",
+      "5/12",
+      "-1/6",
+      "0",
+      "0"
+    ],
+    [
+      "-1/3",
+      "5/6",
+      "-1/3",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "-1/3",
+      "0",
+      "0",
+      "0",
+      "2/3",
+      "0"
+    ],
+    [
+      "5/3",
+      "-2/3",
+      "0",
+      "0",
+      "-2/3",
+      "0"
+    ]
+  ],
+  "tree_diagonal_minor_inverse_infinity_norm": "3",
+  "nonzero_residual_patterns_checked": 17,
+  "input_sha256": {
+    "mtree_refinement/certificate.json": "b25eed9811569b20a2be29406fd5fe91de4d3372ba3ac4675560326f91c4a9a6",
+    "gadget_insertion/certification/p4_tree.json": "0dc954b6e332bef3cda0e1bad7c848b55a858c5e57e4c0e39d01be2cd6faa48a"
+  },
+  "refined_tree_integer_certificate": {
+    "certificate": "M_tree positive power series with exact integer interval arithmetic",
+    "schema_version": 1,
+    "upstream_commit": "a56500014ba159397903dea81d41ac836f6880d5",
+    "working_decimal_places": 120,
+    "integral_terms": 640,
+    "transcendental_terms": 140,
+    "M_tree": {
+      "decimal_enclosure": [
+        "0.276583606882373471022763934877872993758963969073626876185586",
+        "0.276583606882373471022763934877872993758963969073626876185587"
+      ],
+      "lower_numerator": "276583606882373471022763934877872993758963969073626876185586211549912204299354244090061435954343489188448565107092510275",
+      "upper_numerator": "276583606882373471022763934877872993758963969073626876185586211549912204299367146804103296857531799129016296458606349936",
+      "denominator": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "cubic_cutwidth_coefficient_M_tree_over_2": {
+      "decimal_enclosure": [
+        "0.138291803441186735511381967438936496879481984536813438092793",
+        "0.138291803441186735511381967438936496879481984536813438092794"
+      ],
+      "lower_numerator": "138291803441186735511381967438936496879481984536813438092793105774956102149677122045030717977171744594224282553546255137",
+      "upper_numerator": "138291803441186735511381967438936496879481984536813438092793105774956102149683573402051648428765899564508148229303174968",
+      "denominator": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "circuit_coefficient_1_plus_1_over_M_tree": {
+      "decimal_enclosure": [
+        "4.615543275582792605180647436566147154683127022721056907911643",
+        "4.615543275582792605180647436566147154683127022721056907911644"
+      ],
+      "lower_numerator": "4615543275582792605180647436566147154683127022721056907911643155115581258392066559019553276939943480285178970487631082983",
+      "upper_numerator": "4615543275582792605180647436566147154683127022721056907911643155115581258392235225273915407264588809293314170055958451591",
+      "denominator": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "integral_tail_bound": {
+      "decimal_enclosure": [
+        "0.000000000000000000000000000000000000000000000000000000000000",
+        "0.000000000000000000000000000000000000000000000000000000000001"
+      ],
+      "lower_numerator": "0",
+      "upper_numerator": "63672341646773918521587902189188757937458560",
+      "denominator": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "tail_majorant_bound": {
+      "decimal_enclosure": [
+        "5.213356417822692195899169859858520226939643810599198831136144",
+        "5.213356417822692195899169859858520226939643810599198831136145"
+      ],
+      "lower_numerator": "5213356417822692195899169859858520226939643810599198831136144286102176782238956586867972781999262979155333646878834644163",
+      "upper_numerator": "5213356417822692195899169859858520226939643810599198831136144286102176782238956586867972781999262979155333646878834647024",
+      "denominator": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "claims": {
+      "M_tree_upper_improves_original": true,
+      "changes_matched_insertion_method": false,
+      "new_leaderboard_record": false,
+      "full_upstream_certificates_replayed": false,
+      "circuit_and_cutwidth_consequences_depend_on_upstream_theorems": true
+    }
+  },
+  "consequence_of_the_analytic_global_proof": {
+    "cubic_cutwidth_coefficient_upper_fraction": "121005328011038393572459221509069434769546736469711758206193967553086589380973126726795192375170162118944629700640278097/875000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "cubic_cutwidth_coefficient_decimal_upper": "0.138291803441186735511381967438936496879481984536813437949936",
+    "circuit_coefficient_lower_fraction": "558505328011038393572459221509069434769546736469711758206193967553086589380973126726795192375170162118944629700640278097/121005328011038393572459221509069434769546736469711758206193967553086589380973126726795192375170162118944629700640278097",
+    "circuit_coefficient_decimal_lower": "4.615543275582792605180647436566147154683127022721056911646544",
+    "strict_gain_over_original_exact_circuit_coefficient": "3/1000000000000000000000000000000000000000000000000000000",
+    "new_leaderboard_record": false,
+    "full_upstream_certificates_replayed": false
+  },
+  "scope": [
+    "Exact finite checks supporting QUANTITATIVE_GLOBAL.md, not a standalone proof.",
+    "Uses upstream LOC/R1 and pair-theorem certificates as stated dependencies.",
+    "Uses the separately verified natural P4 local certificate.",
+    "The resulting global gap is tiny and establishes no leaderboard record."
+  ]
+}

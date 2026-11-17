@@ -14,6 +14,7 @@ import argparse
 from fractions import Fraction
 import itertools
 import json
+import math
 
 import numpy as np
 
@@ -39,6 +40,94 @@ def structure(k: int):
     return owners, edges, boundary, neighbors
 
 
+def _boundary_option_blocks(k: int):
+    """Yield disjoint (core, boundary-option blocks, category) products.
+
+    A core vertex with an existing downward path neighbor needs no further
+    descent constraint on its boundary leaves. Otherwise at least one such
+    leaf must be one level lower. For a core source, that source is the unique
+    minimum among core levels, its neighbors are one level higher, and the
+    simple-graph distinctness restrictions are imposed directly on leaf choices.
+    This factors the old exhaustive rejection loop without weakening any test.
+    """
+    boundary_owners(k)
+    if k > 7:
+        raise ValueError("explicit enumeration is limited to k <= 7")
+    for increments in itertools.product((-1, 0, 1), repeat=k - 1):
+        core = [0]
+        for delta in increments:
+            core.append(core[-1] + delta)
+        path_neighbors = [(core[v-1:v] if v else []) + core[v+1:v+2]
+                          for v in range(k)]
+
+        def options(source):
+            blocks = []
+            for v in range(k):
+                count = 2 if v in (0, k-1) else 1
+                if v == source:
+                    choices = ((core[v] + 1,) * count,)
+                else:
+                    choices = tuple(itertools.product(range(core[v]-1, core[v]+2), repeat=count))
+                    if min(path_neighbors[v]) != core[v]-1:
+                        choices = tuple(row for row in choices if min(row) == core[v]-1)
+                    if source is not None:
+                        floor = core[source] + int(abs(v-source) <= 1)
+                        choices = tuple(row for row in choices if min(row) >= floor)
+                if not choices:
+                    return None
+                blocks.append(choices)
+            return tuple(blocks)
+
+        generic = options(None)
+        if generic is not None:
+            yield tuple(core), generic, "generic"
+        minimum = min(core)
+        if core.count(minimum) == 1:
+            source = core.index(minimum)
+            if all(value == minimum+1 for value in path_neighbors[source]):
+                special = options(source)
+                if special is not None:
+                    yield tuple(core), special, "special"
+
+
+def iter_types(k: int):
+    """Stream each type exactly once; order is deterministic but not sorted."""
+    for core, blocks, _ in _boundary_option_blocks(k):
+        for leaves in itertools.product(*blocks):
+            yield core + tuple(itertools.chain.from_iterable(leaves))
+
+
+def count_types(k: int) -> dict[str, int]:
+    """Count the disjoint Cartesian products using exact integer arithmetic."""
+    result = {"generic": 0, "special": 0}
+    for _, blocks, category in _boundary_option_blocks(k):
+        result[category] += math.prod(len(block) for block in blocks)
+    result["total"] = result["generic"] + result["special"]
+    return result
+
+
+def compact_types(k: int, sort=True) -> np.ndarray:
+    """Materialize types as int8 rows (about 16.6 MB for all P7 types).
+
+    Sorted output has the same lexicographic indices as enumerate_types.
+    Set sort=False when only streaming indices or actual type vectors matter.
+    """
+    expected = count_types(k)["total"]
+    result = np.empty((expected, 2*k+2), dtype=np.int8)
+    count = 0
+    for row in iter_types(k):
+        if count >= expected:
+            raise ArithmeticError("type iterator exceeded its exact product count")
+        result[count] = row
+        count += 1
+    if count != expected:
+        raise ArithmeticError("type iterator did not reach its exact product count")
+    if sort:
+        order = np.lexsort(tuple(result[:, col] for col in range(2*k+1, -1, -1)))
+        result = result[order]
+    return result
+
+
 def enumerate_types(k: int) -> tuple[tuple[int, ...], ...]:
     """Enumerate a complete, possibly overinclusive set of relative distances.
 
@@ -48,45 +137,11 @@ def enumerate_types(k: int) -> tuple[tuple[int, ...], ...]:
 
     A generic source lies outside the core.  A special source is one core vertex;
     simple-graph constraints exclude a boundary edge duplicating a path edge.
+
+    This compatibility API retains the original sorted tuple representation.
+    For large cones prefer compact_types or iter_types to avoid tuple overhead.
     """
-    if k > 6:
-        raise ValueError("explicit enumeration is limited to k <= 6")
-    owners, _, _, neighbors = structure(k)
-    result = set()
-    leaf_choices = tuple(itertools.product((-1, 0, 1), repeat=k + 2))
-    for increments in itertools.product((-1, 0, 1), repeat=k - 1):
-        core = [0]
-        for delta in increments:
-            core.append(core[-1] + delta)
-        for leaf_delta in leaf_choices:
-            t = tuple(core) + tuple(core[v] + d for v, d in zip(owners, leaf_delta))
-            descends = [min(t[u] for u in neighbors[v]) == t[v] - 1
-                        for v in range(k)]
-            if all(descends):
-                result.add(t)
-                continue
-            # If z is a core vertex, that vertex is the only one whose shortest
-            # path to z does not start with a step down in distance.
-            exceptions = [v for v in range(k) if not descends[v]]
-            if len(exceptions) != 1:
-                continue
-            source = exceptions[0]
-            minimum = t[source]
-            if any(t[u] != minimum + 1 for u in neighbors[source]):
-                continue
-            if any(t[v] <= minimum for v in range(k) if v != source):
-                continue
-            good = True
-            for j, owner in enumerate(owners):
-                # A boundary neighbor cannot be its owner or an adjacent core
-                # vertex (that would be a repeated required path edge).
-                distinct = abs(owner - source) <= 1
-                if t[k + j] < minimum + int(distinct):
-                    good = False
-                    break
-            if good:
-                result.add(t)
-    return tuple(sorted(result))
+    return tuple(sorted(iter_types(k)))
 
 
 def extended_tree_distances(k: int) -> np.ndarray:
@@ -105,15 +160,29 @@ def extended_tree_distances(k: int) -> np.ndarray:
 def tree_distribution(k: int, types=None):
     """Exact rational masses of the k+2 outward branches of the infinite tree."""
     types = enumerate_types(k) if types is None else types
-    lookup = {t: i for i, t in enumerate(types)}
-    distances = extended_tree_distances(k)
+    lookup = {tuple(t): i for i, t in enumerate(types)}
     result = [Fraction(0) for _ in types]
-    for j, owner in enumerate(boundary_owners(k)):
-        leaf = k + j
-        t = tuple(int(x) for x in distances[:, leaf] - distances[0, leaf])
-        result[lookup[t]] += Fraction(1, 3 * 2**owner)
+    support, weights = tree_support(k)
+    for t, weight in zip(support, weights):
+        result[lookup[t]] += weight
     assert sum(result) == 1
     return result
+
+
+def tree_support(k: int):
+    """Return the k+2 tree types and exact masses, without enumerating the cone.
+
+    Rows are ordered by their boundary branch, not lexicographically.
+    """
+    distances = extended_tree_distances(k)
+    support, weights = [], []
+    for j, owner in enumerate(boundary_owners(k)):
+        leaf = k+j
+        support.append(tuple(int(x) for x in distances[:, leaf]-distances[0, leaf]))
+        weights.append(Fraction(1, 3*2**owner))
+    if sum(weights) != 1:
+        raise ArithmeticError("tree masses do not sum to one")
+    return tuple(support), tuple(weights)
 
 
 def generators(types) -> np.ndarray:
@@ -146,9 +215,12 @@ def covariance(k: int, masses, gen: np.ndarray) -> np.ndarray:
 
 
 def check(k: int):
-    types = enumerate_types(k)
-    gen = generators(types)
-    masses = tree_distribution(k, types)
+    types = compact_types(k)
+    support, masses = tree_support(k)
+    gen = generators(support)
+    for row in support:
+        if not np.any(np.all(types == np.asarray(row), axis=1)):
+            raise ArithmeticError("a tree support type is absent")
     cov = covariance(k, masses, gen)
     owners = boundary_owners(k)
     r = lambda d: (1 + d / 3) * 2**(-d / 2)
@@ -165,8 +237,9 @@ def check(k: int):
         "path_vertices": k,
         "boundary_occurrences": k + 2,
         "distance_types": len(types),
-        "generic_types": sum(all(min(t[u] for u in structure(k)[3][v]) == t[v]-1
-                                 for v in range(k)) for t in types),
+        "generic_types": count_types(k)["generic"],
+        "special_types": count_types(k)["special"],
+        "compact_type_storage_bytes": types.nbytes,
         "tree_support_size": sum(bool(x) for x in masses),
         "tree_mass_sum": str(sum(masses)),
         "tree_covariance_max_float_error": error,

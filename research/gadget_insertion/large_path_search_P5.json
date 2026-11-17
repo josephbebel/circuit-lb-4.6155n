@@ -1,0 +1,1066 @@
+{
+  "schema_version": 1,
+  "status": "ADVERSARIAL NUMERICAL SEARCH; NO RIGOROUS UPPER BOUND OR CIRCUIT RECORD",
+  "path_vertices": 5,
+  "counts": {
+    "generic": 24883,
+    "special": 3404,
+    "total": 28287
+  },
+  "sorted_int8_type_sha256": "13b175a3af15fe34d98fb43a7e111a6715db316421cb80b6ccb5734396bc182e",
+  "compact_type_bytes": 339444,
+  "training": {
+    "seed": 37007,
+    "points": 32768,
+    "smooth_common_factor_fraction": 0.95,
+    "tree_face_initializations": 4
+  },
+  "generator_direction_screen": {
+    "seed": 37008,
+    "points": 65536,
+    "all_generators_evaluated": 28287,
+    "conditional_gradient_status": "QMC estimate, no error guarantee",
+    "largest_off_face_directions": [
+      {
+        "type_index": 28123,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          1,
+          -1,
+          2,
+          3,
+          4,
+          5,
+          4
+        ],
+        "derivative_estimate": -0.00038760044033807654
+      },
+      {
+        "type_index": 28121,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          1,
+          -1,
+          2,
+          3,
+          4,
+          4,
+          5
+        ],
+        "derivative_estimate": -0.000388073801585557
+      },
+      {
+        "type_index": 27637,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          -1,
+          1,
+          2,
+          3,
+          4,
+          5,
+          4
+        ],
+        "derivative_estimate": -0.0004078696492075969
+      },
+      {
+        "type_index": 27635,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          -1,
+          1,
+          2,
+          3,
+          4,
+          4,
+          5
+        ],
+        "derivative_estimate": -0.00040834307997139423
+      },
+      {
+        "type_index": 28122,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          1,
+          -1,
+          2,
+          3,
+          4,
+          5,
+          3
+        ],
+        "derivative_estimate": -0.0006205287345879974
+      },
+      {
+        "type_index": 28118,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          1,
+          -1,
+          2,
+          3,
+          4,
+          3,
+          5
+        ],
+        "derivative_estimate": -0.0006224409517409932
+      },
+      {
+        "type_index": 27636,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          -1,
+          1,
+          2,
+          3,
+          4,
+          5,
+          3
+        ],
+        "derivative_estimate": -0.0006407893875627804
+      },
+      {
+        "type_index": 27632,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          -1,
+          1,
+          2,
+          3,
+          4,
+          3,
+          5
+        ],
+        "derivative_estimate": -0.0006427017725430013
+      },
+      {
+        "type_index": 28115,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          1,
+          -1,
+          2,
+          3,
+          3,
+          5,
+          5
+        ],
+        "derivative_estimate": -0.0008125933442610434
+      },
+      {
+        "type_index": 27629,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          -1,
+          1,
+          2,
+          3,
+          3,
+          5,
+          5
+        ],
+        "derivative_estimate": -0.0008328324895516613
+      },
+      {
+        "type_index": 28120,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          1,
+          -1,
+          2,
+          3,
+          4,
+          4,
+          4
+        ],
+        "derivative_estimate": -0.0009888358752146377
+      },
+      {
+        "type_index": 27634,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          -1,
+          1,
+          2,
+          3,
+          4,
+          4,
+          4
+        ],
+        "derivative_estimate": -0.0010090991036692861
+      }
+    ]
+  },
+  "sparse_search": {
+    "single_type_grid_trials": 144,
+    "random_sparse_trials": 2000,
+    "coarse_points": 1024,
+    "invalid_trial_points": 0,
+    "shortlist_size": 24,
+    "polished_points": 4
+  },
+  "holdout": {
+    "points_per_scramble": 524288,
+    "scrambles": 6,
+    "seeds": [
+      38006,
+      38007,
+      38008,
+      38009,
+      38010,
+      38011
+    ],
+    "uncertainty": "Scramble standard errors are heuristic, not rigorous integration errors or confidence guarantees."
+  },
+  "validated_candidates": [
+    {
+      "label": "natural_tree",
+      "support": [
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ],
+          "mass": 0.3333333333333333
+        },
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ],
+          "mass": 0.3333333333333333
+        },
+        {
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            3,
+            3
+          ],
+          "mass": 0.16666666666666666
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            0,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            1,
+            1
+          ],
+          "mass": 0.08333333333333333
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -2,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -1,
+            -1
+          ],
+          "mass": 0.041666666666666664
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -4,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -5,
+            -3
+          ],
+          "mass": 0.020833333333333332
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -4,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -3,
+            -5
+          ],
+          "mass": 0.020833333333333332
+        }
+      ],
+      "training_cost_per_vertex": 0.13564454809211832,
+      "holdout_mean_cost_per_vertex": 0.1356324208351249,
+      "holdout_replicates": [
+        0.13563076892675752,
+        0.13563551616004865,
+        0.13563488239925003,
+        0.13562852835117675,
+        0.13563438204214506,
+        0.1356304471313713
+      ],
+      "holdout_standard_error_heuristic": 1.1727802628727722e-06,
+      "paired_gain_over_tree_mean": 0.0,
+      "paired_gain_standard_error_heuristic": 0.0,
+      "target_minus_mean": {
+        "0.13614": 0.0005075791648751216,
+        "0.13615": 0.0005175791648751038
+      }
+    },
+    {
+      "label": "best_tree_face",
+      "support": [
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ],
+          "mass": 0.3369205224708945
+        },
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ],
+          "mass": 0.3364816881801666
+        },
+        {
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            3,
+            3
+          ],
+          "mass": 0.16266682259988016
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            0,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            1,
+            1
+          ],
+          "mass": 0.0812717533348132
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -2,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -1,
+            -1
+          ],
+          "mass": 0.04056308453655653
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -4,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -5,
+            -3
+          ],
+          "mass": 0.021088063641888734
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -4,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -3,
+            -5
+          ],
+          "mass": 0.021008065235800316
+        }
+      ],
+      "optimization": {
+        "success": true,
+        "message": "Optimization terminated successfully.",
+        "iterations": 41,
+        "evaluations": 329,
+        "invalid_trial_points": 0,
+        "training_value": 0.1356524597326448
+      },
+      "training_cost_per_vertex": 0.1356524597326448,
+      "holdout_mean_cost_per_vertex": 0.13564091894716926,
+      "holdout_replicates": [
+        0.13563937248960367,
+        0.13564386613797144,
+        0.13564324541197167,
+        0.13563687864556473,
+        0.13564301533439255,
+        0.13563913566351163
+      ],
+      "holdout_standard_error_heuristic": 1.1602999634091344e-06,
+      "paired_gain_over_tree_mean": 8.49811204439721e-06,
+      "paired_gain_standard_error_heuristic": 6.52428735264803e-08,
+      "target_minus_mean": {
+        "0.13614": 0.0004990810528307521,
+        "0.13615": 0.0005090810528307343
+      }
+    },
+    {
+      "label": "single_off_face_27637_mass_0.01_optimized",
+      "support": [
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ],
+          "mass": 0.3369110605542959
+        },
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ],
+          "mass": 0.3364879402385964
+        },
+        {
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            3,
+            3
+          ],
+          "mass": 0.16266797082041476
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            0,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            1,
+            1
+          ],
+          "mass": 0.08126741444062167
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -2,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -1,
+            -1
+          ],
+          "mass": 0.04056269322314183
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -4,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -5,
+            -3
+          ],
+          "mass": 0.021086968730382315
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -4,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -3,
+            -5
+          ],
+          "mass": 0.021007763776725693
+        },
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4
+          ],
+          "mass": 8.188215821428532e-06
+        }
+      ],
+      "optimization": {
+        "success": true,
+        "message": "Optimization terminated successfully.",
+        "iterations": 82,
+        "evaluations": 736,
+        "invalid_trial_points": 0,
+        "training_value": 0.13565245645252508
+      },
+      "training_cost_per_vertex": 0.13565245645252508,
+      "holdout_mean_cost_per_vertex": 0.135640916087351,
+      "holdout_replicates": [
+        0.13563936932122755,
+        0.135643863642059,
+        0.1356432425551439,
+        0.13563687573626762,
+        0.13564301261426714,
+        0.13563913265514088
+      ],
+      "holdout_standard_error_heuristic": 1.160366451080941e-06,
+      "paired_gain_over_tree_mean": 8.495252226130753e-06,
+      "paired_gain_standard_error_heuristic": 6.519748750317441e-08,
+      "target_minus_mean": {
+        "0.13614": 0.0004990839126490232,
+        "0.13615": 0.0005090839126490054
+      }
+    },
+    {
+      "label": "single_off_face_27635_mass_0.01_optimized",
+      "support": [
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ],
+          "mass": 0.3369116503288225
+        },
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ],
+          "mass": 0.33649523852893964
+        },
+        {
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            3,
+            3
+          ],
+          "mass": 0.16265868544884562
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            0,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            1,
+            1
+          ],
+          "mass": 0.08126390429884253
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -2,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -1,
+            -1
+          ],
+          "mass": 0.040560830463141614
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -4,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -5,
+            -3
+          ],
+          "mass": 0.02108797093081791
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -4,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -3,
+            -5
+          ],
+          "mass": 0.021007104611618654
+        },
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4,
+            5
+          ],
+          "mass": 1.4615388971573878e-05
+        }
+      ],
+      "optimization": {
+        "success": true,
+        "message": "Optimization terminated successfully.",
+        "iterations": 88,
+        "evaluations": 776,
+        "invalid_trial_points": 0,
+        "training_value": 0.1356524535589591
+      },
+      "training_cost_per_vertex": 0.1356524535589591,
+      "holdout_mean_cost_per_vertex": 0.13564091425999525,
+      "holdout_replicates": [
+        0.1356393676867699,
+        0.13564386154447813,
+        0.13564324054008742,
+        0.13563687373466157,
+        0.1356430109265993,
+        0.1356391311273753
+      ],
+      "holdout_standard_error_heuristic": 1.1603357472818366e-06,
+      "paired_gain_over_tree_mean": 8.493424870387178e-06,
+      "paired_gain_standard_error_heuristic": 6.529322107196438e-08,
+      "target_minus_mean": {
+        "0.13614": 0.0004990857400047621,
+        "0.13615": 0.0005090857400047444
+      }
+    },
+    {
+      "label": "single_off_face_28121_mass_0.01_optimized",
+      "support": [
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ],
+          "mass": 0.3369195680584842
+        },
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ],
+          "mass": 0.33646930744097786
+        },
+        {
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            2,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            3,
+            3
+          ],
+          "mass": 0.1626677322139173
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            0,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            1,
+            1
+          ],
+          "mass": 0.08127001371783539
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -2,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -1,
+            -1
+          ],
+          "mass": 0.040558960210429075
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -4,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -5,
+            -3
+          ],
+          "mass": 0.021090409828530964
+        },
+        {
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            -4,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -3,
+            -5
+          ],
+          "mass": 0.02100786872607991
+        },
+        {
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4,
+            5
+          ],
+          "mass": 1.6139803745347657e-05
+        }
+      ],
+      "optimization": {
+        "success": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "iterations": 81,
+        "evaluations": 912,
+        "invalid_trial_points": 0,
+        "training_value": 0.13565245292779324
+      },
+      "training_cost_per_vertex": 0.13565245292779324,
+      "holdout_mean_cost_per_vertex": 0.1356409113310528,
+      "holdout_replicates": [
+        0.1356393655024749,
+        0.13564385799245124,
+        0.1356432372457723,
+        0.1356368704223979,
+        0.13564300823508937,
+        0.13563912858813107
+      ],
+      "holdout_standard_error_heuristic": 1.160264341900268e-06,
+      "paired_gain_over_tree_mean": 8.490495927909736e-06,
+      "paired_gain_standard_error_heuristic": 6.548896596665461e-08,
+      "target_minus_mean": {
+        "0.13614": 0.0004990886689472118,
+        "0.13615": 0.0005090886689471941
+      }
+    }
+  ],
+  "interpretation": [
+    "Failure to find a point above a target is not a proof that none exists.",
+    "The all-generator scan is a numerical first-derivative calculation at one point, not a global bound.",
+    "The finite random and local searches do not exhaust sparse mixtures or the cone.",
+    "A cone point need not correspond to a realized cubic graph.",
+    "Every claimed universal improvement still needs a full rigorous Gaussian inequality."
+  ],
+  "wall_seconds": 59.45412087500017,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

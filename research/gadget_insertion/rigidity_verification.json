@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "status": "EXACT INTEGER/RATIONAL FINITE CHECKS PASSED; SEE ANALYTIC PROOF",
+  "path_vertices": 4,
+  "distance_types": 4655,
+  "pair_projections": [
+    {
+      "label_indices": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        6
+      ],
+      "source_types_checked": 4655,
+      "distinct_pair_type_images": 123,
+      "all_images_in_123_type_cone": true
+    },
+    {
+      "label_indices": [
+        2,
+        3,
+        1,
+        7,
+        8,
+        9
+      ],
+      "source_types_checked": 4655,
+      "distinct_pair_type_images": 123,
+      "all_images_in_123_type_cone": true
+    }
+  ],
+  "equality_support_size": 6,
+  "diagonal_constraint_rank": 6,
+  "unique_normalized_masses": [
+    {
+      "type_index": 455,
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        1,
+        1,
+        0,
+        -1,
+        -4,
+        -2
+      ],
+      "mass": "1/24"
+    },
+    {
+      "type_index": 457,
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        1,
+        1,
+        0,
+        -1,
+        -2,
+        -4
+      ],
+      "mass": "1/24"
+    },
+    {
+      "type_index": 904,
+      "type": [
+        0,
+        -1,
+        -2,
+        -1,
+        1,
+        1,
+        0,
+        -3,
+        0,
+        0
+      ],
+      "mass": "1/12"
+    },
+    {
+      "type_index": 1794,
+      "type": [
+        0,
+        -1,
+        0,
+        1,
+        1,
+        1,
+        -2,
+        1,
+        2,
+        2
+      ],
+      "mass": "1/6"
+    },
+    {
+      "type_index": 4438,
+      "type": [
+        0,
+        1,
+        2,
+        3,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "mass": "1/3"
+    },
+    {
+      "type_index": 4600,
+      "type": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        -1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "mass": "1/3"
+    }
+  ],
+  "scope": [
+    "Checks exact local-type projections and equality-support algebra.",
+    "Does not certify a numerical global maximum of the P4 cone.",
+    "The strict-gap conclusion additionally uses the upstream pair theorem and the analytic arguments in GLOBAL_STRATEGY.md."
+  ]
+}

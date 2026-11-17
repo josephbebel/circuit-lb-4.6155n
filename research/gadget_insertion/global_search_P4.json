@@ -1,0 +1,1638 @@
+{
+  "schema_version": 1,
+  "status": "NUMERICAL ADVERSARIAL SEARCH, NOT A GLOBAL UPPER CERTIFICATE",
+  "path_vertices": 4,
+  "distance_types": 4655,
+  "seed": 73191,
+  "training_quadrature_order": 24,
+  "regularizer_mass_on_natural_tree": 1e-06,
+  "all_generators_checked_per_column_round": 4655,
+  "interpretation": "A failure to find a worse point proves no global inequality. All derivatives and quadratures are floating point. Generator directions target (1-epsilon)*e_i+epsilon*m_tree, with the stated regularizer epsilon.",
+  "maximum_found_order128": 0.13613542578958404,
+  "trials": [
+    {
+      "trial": 0,
+      "initialization": "tree",
+      "initial_cost_per_vertex": 0.13612623275443061,
+      "final_values_by_quadrature_order": {
+        "64": 0.13613542578945856,
+        "128": 0.1361354257894575
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 8,
+          "maximum_all_generator_direction": 2.937883955872062e-07
+        }
+      ],
+      "seconds": 1.0989118329998746,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.04207467864308663
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.04207467864308761
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.08088373711671337
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.1617672800818309
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3365998127576408
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3365998127576407
+        }
+      ]
+    },
+    {
+      "trial": 1,
+      "initialization": "sparse_random",
+      "initial_cost_per_vertex": 0.09840332787073945,
+      "final_values_by_quadrature_order": {
+        "64": 0.1361354257855937,
+        "128": 0.13613542578559265
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 20,
+          "maximum_all_generator_direction": 5.757444599280277e-07
+        }
+      ],
+      "seconds": 1.8538258229996245,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.04207495415227481
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.04207504447286502
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.08088573020649806
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.16176900024330929
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3366044812797755
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3365907896452772
+        }
+      ]
+    },
+    {
+      "trial": 2,
+      "initialization": "sparse_random",
+      "initial_cost_per_vertex": 0.07502241342864732,
+      "final_values_by_quadrature_order": {
+        "64": 0.1361354257875832,
+        "128": 0.13613542578758217
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 19,
+          "maximum_all_generator_direction": 0.9683420480873595
+        },
+        {
+          "round": 1,
+          "support_size": 5,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 25,
+          "maximum_all_generator_direction": 0.1462388632748653
+        },
+        {
+          "round": 2,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 21,
+          "maximum_all_generator_direction": 0.13230808721521659
+        },
+        {
+          "round": 3,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 21,
+          "maximum_all_generator_direction": 0.02912522058707625
+        },
+        {
+          "round": 4,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 23,
+          "maximum_all_generator_direction": 0.011014588387173714
+        },
+        {
+          "round": 5,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 34,
+          "maximum_all_generator_direction": 0.003260074791424419
+        },
+        {
+          "round": 6,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 23,
+          "maximum_all_generator_direction": 1.5519617943258748e-06
+        }
+      ],
+      "seconds": 11.890462987999854,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.042074389308353576
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.04207431849849809
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.08088241107005409
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.16176851329755743
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.33659943337178305
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.33660093445375366
+        }
+      ]
+    },
+    {
+      "trial": 3,
+      "initialization": "diffuse_random",
+      "initial_cost_per_vertex": 0.0898806128122958,
+      "final_values_by_quadrature_order": {
+        "64": 0.13613542578928012,
+        "128": 0.13613542578927953
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 23,
+          "maximum_all_generator_direction": 2.3194082053694102e-07
+        }
+      ],
+      "seconds": 2.156249131000095,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.04207494664593255
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.042074797676464486
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.08088435520389527
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.16176762467171332
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3366017458705228
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3365965299314717
+        }
+      ]
+    },
+    {
+      "trial": 4,
+      "initialization": "sparse_random",
+      "initial_cost_per_vertex": 0.06376931771368208,
+      "final_values_by_quadrature_order": {
+        "64": 0.13613542578301077,
+        "128": 0.13613542578301022
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 32,
+          "maximum_all_generator_direction": 0.3172976717307046
+        },
+        {
+          "round": 1,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 29,
+          "maximum_all_generator_direction": 0.08231846348277123
+        },
+        {
+          "round": 2,
+          "support_size": 5,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 23,
+          "maximum_all_generator_direction": 0.06488533984002354
+        },
+        {
+          "round": 3,
+          "support_size": 5,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 26,
+          "maximum_all_generator_direction": 0.023468200628700808
+        },
+        {
+          "round": 4,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 50,
+          "maximum_all_generator_direction": 0.022122843019202542
+        },
+        {
+          "round": 5,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 32,
+          "maximum_all_generator_direction": 0.013054183600058056
+        },
+        {
+          "round": 6,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 21,
+          "maximum_all_generator_direction": 6.252924372377991e-07
+        }
+      ],
+      "seconds": 14.67589039800032,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.042075010454234694
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.04207536846710195
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.0808846289148723
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.16176705647799966
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.33660911565038903
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3365888200354025
+        }
+      ]
+    },
+    {
+      "trial": 5,
+      "initialization": "sparse_random",
+      "initial_cost_per_vertex": 0.09432304727263192,
+      "final_values_by_quadrature_order": {
+        "64": 0.13613542577894744,
+        "128": 0.13613542577894666
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 22,
+          "maximum_all_generator_direction": 2.541005879369455e-06
+        }
+      ],
+      "seconds": 2.037603325999953,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.04207550642572224
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.042074258075230284
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.08088673202207851
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.1617630518058447
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3366042187441693
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3365962329269548
+        }
+      ]
+    },
+    {
+      "trial": 6,
+      "initialization": "diffuse_random",
+      "initial_cost_per_vertex": 0.0915680565210168,
+      "final_values_by_quadrature_order": {
+        "64": 0.13613542578550325,
+        "128": 0.1361354257855021
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 40,
+          "maximum_all_generator_direction": 0.13778799083456786
+        },
+        {
+          "round": 1,
+          "support_size": 5,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 26,
+          "maximum_all_generator_direction": 0.052833349275290487
+        },
+        {
+          "round": 2,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 18,
+          "maximum_all_generator_direction": 0.0224268436865986
+        },
+        {
+          "round": 3,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 35,
+          "maximum_all_generator_direction": 0.01482623897167437
+        },
+        {
+          "round": 4,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 34,
+          "maximum_all_generator_direction": 5.977801295552795e-07
+        }
+      ],
+      "seconds": 10.292663089000143,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.04207534866531518
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.0420750680819564
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.08088543604244941
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.16177182364529438
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.336600504611254
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.33659181895373047
+        }
+      ]
+    },
+    {
+      "trial": 7,
+      "initialization": "sparse_random",
+      "initial_cost_per_vertex": 0.09621741751132616,
+      "final_values_by_quadrature_order": {
+        "64": 0.13613542578392585,
+        "128": 0.13613542578392454
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 23,
+          "maximum_all_generator_direction": 6.570194333512866e-07
+        }
+      ],
+      "seconds": 1.9782346249999136,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.04207488535524769
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.042074993156996456
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.08088481564521127
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.16176880130169477
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3365884270120404
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3366080775288094
+        }
+      ]
+    },
+    {
+      "trial": 8,
+      "initialization": "sparse_random",
+      "initial_cost_per_vertex": 0.0750120023935208,
+      "final_values_by_quadrature_order": {
+        "64": 0.1361354257829117,
+        "128": 0.13613542578291096
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 4,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 34,
+          "maximum_all_generator_direction": 0.3595376779129249
+        },
+        {
+          "round": 1,
+          "support_size": 4,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 25,
+          "maximum_all_generator_direction": 0.13400291474017054
+        },
+        {
+          "round": 2,
+          "support_size": 5,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 18,
+          "maximum_all_generator_direction": 0.19530545753876785
+        },
+        {
+          "round": 3,
+          "support_size": 5,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 24,
+          "maximum_all_generator_direction": 0.01601161064270897
+        },
+        {
+          "round": 4,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 33,
+          "maximum_all_generator_direction": 0.015024893202301616
+        },
+        {
+          "round": 5,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 35,
+          "maximum_all_generator_direction": 2.2915508465064114e-06
+        }
+      ],
+      "seconds": 11.789020430999699,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.04207437235148943
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.042075220493722136
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.08088518958365123
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.16176947289375687
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.33658831445126797
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3366074302261122
+        }
+      ]
+    },
+    {
+      "trial": 9,
+      "initialization": "diffuse_random",
+      "initial_cost_per_vertex": 0.09656753216100686,
+      "final_values_by_quadrature_order": {
+        "64": 0.1361354257888521,
+        "128": 0.13613542578885138
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 22,
+          "maximum_all_generator_direction": 5.012052373687954e-07
+        }
+      ],
+      "seconds": 2.029067575999761,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.042074877385013
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.0420750348413121
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.08088390916889376
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.1617666752274663
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.33659729509094904
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.33660220828636567
+        }
+      ]
+    },
+    {
+      "trial": 10,
+      "initialization": "sparse_random",
+      "initial_cost_per_vertex": 0.06738953639941696,
+      "final_values_by_quadrature_order": {
+        "64": 0.1361354257827977,
+        "128": 0.13613542578279658
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 31,
+          "maximum_all_generator_direction": 0.4983059907262782
+        },
+        {
+          "round": 1,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 21,
+          "maximum_all_generator_direction": 0.10900021245104517
+        },
+        {
+          "round": 2,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 23,
+          "maximum_all_generator_direction": 0.022911157209318727
+        },
+        {
+          "round": 3,
+          "support_size": 7,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 47,
+          "maximum_all_generator_direction": 0.01978553630240054
+        },
+        {
+          "round": 4,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 43,
+          "maximum_all_generator_direction": 0.011120857892915772
+        },
+        {
+          "round": 5,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 21,
+          "maximum_all_generator_direction": 1.3768088775551744e-06
+        }
+      ],
+      "seconds": 13.431592898999952,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.04207510919705176
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.0420747192426976
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.08088442117951335
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.16177422327673624
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.33659199856415845
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.33659952853984265
+        }
+      ]
+    },
+    {
+      "trial": 11,
+      "initialization": "sparse_random",
+      "initial_cost_per_vertex": 0.07472339234620472,
+      "final_values_by_quadrature_order": {
+        "64": 0.1361354257895851,
+        "128": 0.13613542578958404
+      },
+      "history": [
+        {
+          "round": 0,
+          "support_size": 6,
+          "optimizer_success": true,
+          "optimizer_message": "Optimization terminated successfully",
+          "function_evaluations": 20,
+          "maximum_all_generator_direction": 2.4718509703143443e-07
+        }
+      ],
+      "seconds": 1.9719242490000397,
+      "mass_support": [
+        {
+          "type_index": 455,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -4,
+            -2
+          ],
+          "mass": 0.04207478993474231
+        },
+        {
+          "type_index": 457,
+          "type": [
+            0,
+            -1,
+            -2,
+            -3,
+            1,
+            1,
+            0,
+            -1,
+            -2,
+            -4
+          ],
+          "mass": 0.04207484417707145
+        },
+        {
+          "type_index": 904,
+          "type": [
+            0,
+            -1,
+            -2,
+            -1,
+            1,
+            1,
+            0,
+            -3,
+            0,
+            0
+          ],
+          "mass": 0.08088402338496116
+        },
+        {
+          "type_index": 1794,
+          "type": [
+            0,
+            -1,
+            0,
+            1,
+            1,
+            1,
+            -2,
+            1,
+            2,
+            2
+          ],
+          "mass": 0.16176876299283602
+        },
+        {
+          "type_index": 4438,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.33659712916748113
+        },
+        {
+          "type_index": 4600,
+          "type": [
+            0,
+            1,
+            2,
+            3,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            4
+          ],
+          "mass": 0.3366004503429079
+        }
+      ]
+    }
+  ]
+}

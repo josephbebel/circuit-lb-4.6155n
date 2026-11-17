@@ -4,9 +4,12 @@
 
 This note proves an extension of the **insertion mechanism** in `proof.md`,
 Sections 2.5 and 3.2–3.4. It specifies finite Gaussian inequalities which would
-be sufficient for a stronger universal cubic cutwidth bound. **No new numerical
-upper bound for all cubic kernels is proved here.** Tree evaluations, sampled
-cone points, and floating-point optimization are exploratory evidence only.
+be sufficient for a stronger universal cubic cutwidth bound. The companion
+`GLOBAL_STRATEGY.md` proves a strict universal improvement using P_2 and P_4;
+`QUANTITATIVE_GLOBAL.md` gives its explicit, very small gap 10^(-54) in the
+P_4 total-cost bound. The stronger path-cover targets developed below remain
+open. Tree evaluations, sampled cone points, and floating-point optimization
+by themselves are exploratory evidence only.
 
 The Gaussian threshold and correlation comparison lemma used below is Lemma G
 of `proof.md`. The circuit-to-cutwidth implication is Theorem K2C there. Their
@@ -344,8 +347,8 @@ continuous off coordinate-zero hyperplanes, each of probability zero since
 all variances are one. This is valid even at singular matrices. The shell
 therefore changes the expectation by o_R(1).
 
-The following **unproved finite-dimensional inequality** would now suffice
-for a per-path bound beta_k:
+The following finite-dimensional inequality suffices for a per-path bound
+beta_k:
 
     Phi_{P_k}(C_k(m)) <= beta_k      for every m_t>=0 with sum_t m_t=1.     (11)
 
@@ -353,6 +356,9 @@ Homogeneity permits the normalization sum m_t=1. It is essential that (11)
 cover the entire simplex, including its boundary and singular covariances.
 A value at the tree distribution is only one feasible value of its left
 side, and thus gives a lower bound on this supremum, not an upper bound.
+The companion quantitative proof establishes the weak bound
+beta_4=2M_tree-10^(-54). The stronger bounds required by the record-target
+path cover in Section 5 have not been certified.
 
 ## 5. Covering every cubic kernel: paths and short cycles
 
@@ -467,7 +473,7 @@ the gadget cost, free-edge count, source-type collection, and covariance
 certificate must then be changed to include every such topology. The path
 code in this directory does not implement that alternative.
 
-## 6. What remains before any improved constant can be claimed
+## 6. What remains for the competitive P4-P7 target
 
 1. Choose a complete covering scheme such as (12), or prove another scheme
    covering every kernel with controlled budgets. The concrete choice
@@ -485,10 +491,12 @@ code in this directory does not implement that alternative.
    kappa into the circuit coefficient 1+1/(2 kappa).
 
 The combinatorial insertion mechanism and the sufficient certificate
-interface are established above. The new universal numerical certificate
-needed for a stronger circuit lower bound remains open in this work.
+interface are established above. The separate P2/P4 matching cover and
+`QUANTITATIVE_GLOBAL.md` now prove the weak but strict improvement
+`kappa <= M_tree/2 - 10^-54/7`. The much stronger uniform P4-P7 bounds
+needed for the prospective competitive targets remain open.
 
-### Exploratory warning: do not assume the path tree point is extremal
+### Certified obstruction: the natural P4 tree point is not extremal
 
 The accompanying exploration has found a nonuniform perturbation of the
 P_4 tree-type masses whose numerical expected cost exceeds the value at the
@@ -496,11 +504,12 @@ uniformly rooted tree distribution. The final 128-point quadrature reports
 per-vertex values about 0.1361262327372273 at the tree distribution and
 0.13613542578979634 at the numerical stationary candidate; see
 `cone_search_P4.json`. The 64-point values agree to about 10^{-15}, but
-agreement between quadrature orders is not an error certificate. These are
-floating-point estimates, not certified inequalities. Their role
-is to warn against assuming that the upstream tree-extremality argument
-extends automatically to larger paths. A small numerical stationarity
-residual does not establish a local or global maximum. Even the tree-supported
-face needs analysis. A successful certificate might bound a nonuniform extremizer or
-use additional realizability or global averaging constraints; those options
-require their own proofs.
+agreement between quadrature orders is not an error certificate. These
+particular figures remain floating-point estimates. The independent interval
+calculation in `certification/README.md` now proves that an exactly rationalized
+candidate exceeds the natural point by more than `9*10^-6` per vertex.
+Thus natural-tree extremality is false for this relaxed P4 cone. A small
+numerical stationarity residual still does not establish that the nonuniform
+candidate is a local or global maximum. A strong certificate could bound a
+nonuniform extremizer or use additional realizability or averaging constraints;
+those options require their own proofs.

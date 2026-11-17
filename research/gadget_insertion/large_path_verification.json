@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "status": "EXACT STRUCTURAL ENUMERATION CHECKS AND NUMERICAL CONSISTENCY CHECKS; NO CONE UPPER BOUND",
+  "legacy_comparisons": [
+    {
+      "path_vertices": 2,
+      "types": 123,
+      "exact_legacy_equality": true
+    },
+    {
+      "path_vertices": 3,
+      "types": 763,
+      "exact_legacy_equality": true
+    },
+    {
+      "path_vertices": 4,
+      "types": 4655,
+      "exact_legacy_equality": true
+    },
+    {
+      "path_vertices": 5,
+      "types": 28287,
+      "exact_legacy_equality": true
+    }
+  ],
+  "P7_counts": {
+    "generic": 895795,
+    "special": 137716,
+    "total": 1033511
+  },
+  "P7_compact_bytes": 16536176,
+  "P7_sorted_int8_sha256": "1e158ad594e7c8373d8b05ac49a6423ed1ab59c64fe16afd5cb41e39e0925cb1",
+  "P7_row_validation": {
+    "generic_types_checked": 895795,
+    "special_types_checked": 137716,
+    "all_rows_satisfy_original_integer_predicates": true,
+    "no_duplicate_rows": true
+  },
+  "P7_actual_graph_validation": [
+    {
+      "graph": "cube",
+      "oriented_P7_paths": 192,
+      "source_patterns_checked": 6144,
+      "boundary_labelings_with_repetitions": 768,
+      "boundary_labelings_with_chords": 768,
+      "independent_covariance_comparisons": [
+        {
+          "max_float_error": 3.3306690738754696e-16,
+          "duplicate_edge_pairs": 3
+        }
+      ]
+    },
+    {
+      "graph": "Petersen",
+      "oriented_P7_paths": 480,
+      "source_patterns_checked": 19200,
+      "boundary_labelings_with_repetitions": 1920,
+      "boundary_labelings_with_chords": 1920,
+      "independent_covariance_comparisons": [
+        {
+          "max_float_error": 3.3306690738754696e-16,
+          "duplicate_edge_pairs": 2
+        }
+      ]
+    },
+    {
+      "graph": "7-prism",
+      "oriented_P7_paths": 812,
+      "source_patterns_checked": 45472,
+      "boundary_labelings_with_repetitions": 3136,
+      "boundary_labelings_with_chords": 1904,
+      "independent_covariance_comparisons": [
+        {
+          "max_float_error": 5.551115123125783e-16,
+          "duplicate_edge_pairs": 1
+        },
+        {
+          "max_float_error": 5.551115123125783e-16,
+          "duplicate_edge_pairs": 0
+        },
+        {
+          "max_float_error": 4.440892098500626e-16,
+          "duplicate_edge_pairs": 1
+        }
+      ]
+    }
+  ],
+  "numerical_validation": {
+    "P4_conditional_QMC_gradient_max_error_against_deterministic": 3.8033199788040095e-06,
+    "adjoint_vs_forward_chain_rule_max_error": 1.0755285551056204e-16,
+    "constant_table_integration_error": 0.0,
+    "independent_P2_table_mean": 1.1249964920000617,
+    "status": "numerical diagnostics only, not certified error bounds"
+  },
+  "all_checks_passed": true
+}

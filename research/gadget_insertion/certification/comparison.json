@@ -1,0 +1,12 @@
+{
+  "P4_natural_tree_is_not_a_maximizer_of_the_relaxed_cone": true,
+  "candidate_local_box_per_vertex_strict_upper_bound": "6807/50000",
+  "candidate_local_correlation_radius": "1/1048576",
+  "candidate_local_simplex_L1_radius": "1/1073741824",
+  "candidate_minus_natural_per_vertex_exact_lower_bound": "81395592321/9007199254740992",
+  "candidate_minus_natural_per_vertex_simple_strict_lower_bound": "9/1000000",
+  "comparisons_passed": true,
+  "scope": "Strict comparisons and local bounds only; no bound over the entire P4 cone.",
+  "two_M_tree_minus_natural_P4_total_exact_lower_bound": "10827089311991981428643820409336047151802478304575299012577072642491/1250000000000000000000000000000000000000000000000000000000000000000000",
+  "two_M_tree_minus_natural_P4_total_simple_strict_lower_bound": "433/50000"
+}
