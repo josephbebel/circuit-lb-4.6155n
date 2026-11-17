@@ -1,0 +1,1859 @@
+{
+  "representation": "rational + sqrt2_coefficient * sqrt(2)",
+  "matrices": {
+    "2": [
+      [
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        }
+      ],
+      [
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        }
+      ]
+    ],
+    "3": [
+      [
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        }
+      ],
+      [
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        }
+      ]
+    ],
+    "4": [
+      [
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        }
+      ],
+      [
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        }
+      ]
+    ],
+    "6": [
+      [
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        }
+      ],
+      [
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        }
+      ],
+      [
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        }
+      ],
+      [
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        }
+      ],
+      [
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        }
+      ]
+    ],
+    "8": [
+      [
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        }
+      ],
+      [
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        }
+      ],
+      [
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        }
+      ],
+      [
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        }
+      ],
+      [
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        }
+      ],
+      [
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        }
+      ],
+      [
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        }
+      ]
+    ],
+    "12": [
+      [
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        },
+        {
+          "rational": "1/32",
+          "sqrt2_coefficient": "5/64"
+        },
+        {
+          "rational": "11/128",
+          "sqrt2_coefficient": "1/64"
+        },
+        {
+          "rational": "1/64",
+          "sqrt2_coefficient": "3/64"
+        },
+        {
+          "rational": "1/64",
+          "sqrt2_coefficient": "3/64"
+        }
+      ],
+      [
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        },
+        {
+          "rational": "1/32",
+          "sqrt2_coefficient": "5/64"
+        },
+        {
+          "rational": "11/128",
+          "sqrt2_coefficient": "1/64"
+        },
+        {
+          "rational": "1/64",
+          "sqrt2_coefficient": "3/64"
+        },
+        {
+          "rational": "1/64",
+          "sqrt2_coefficient": "3/64"
+        }
+      ],
+      [
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        },
+        {
+          "rational": "1/32",
+          "sqrt2_coefficient": "5/64"
+        },
+        {
+          "rational": "11/128",
+          "sqrt2_coefficient": "1/64"
+        },
+        {
+          "rational": "11/128",
+          "sqrt2_coefficient": "1/64"
+        }
+      ],
+      [
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        },
+        {
+          "rational": "1/32",
+          "sqrt2_coefficient": "5/64"
+        },
+        {
+          "rational": "1/32",
+          "sqrt2_coefficient": "5/64"
+        }
+      ],
+      [
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        },
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        }
+      ],
+      [
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        }
+      ],
+      [
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        }
+      ],
+      [
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        }
+      ],
+      [
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        }
+      ],
+      [
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        },
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/32",
+          "sqrt2_coefficient": "5/64"
+        },
+        {
+          "rational": "1/32",
+          "sqrt2_coefficient": "5/64"
+        },
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "11/128",
+          "sqrt2_coefficient": "1/64"
+        },
+        {
+          "rational": "11/128",
+          "sqrt2_coefficient": "1/64"
+        },
+        {
+          "rational": "1/32",
+          "sqrt2_coefficient": "5/64"
+        },
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        }
+      ],
+      [
+        {
+          "rational": "1/64",
+          "sqrt2_coefficient": "3/64"
+        },
+        {
+          "rational": "1/64",
+          "sqrt2_coefficient": "3/64"
+        },
+        {
+          "rational": "11/128",
+          "sqrt2_coefficient": "1/64"
+        },
+        {
+          "rational": "1/32",
+          "sqrt2_coefficient": "5/64"
+        },
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        }
+      ],
+      [
+        {
+          "rational": "1/64",
+          "sqrt2_coefficient": "3/64"
+        },
+        {
+          "rational": "1/64",
+          "sqrt2_coefficient": "3/64"
+        },
+        {
+          "rational": "11/128",
+          "sqrt2_coefficient": "1/64"
+        },
+        {
+          "rational": "1/32",
+          "sqrt2_coefficient": "5/64"
+        },
+        {
+          "rational": "9/64",
+          "sqrt2_coefficient": "1/32"
+        },
+        {
+          "rational": "1/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "7/32",
+          "sqrt2_coefficient": "1/16"
+        },
+        {
+          "rational": "1/8",
+          "sqrt2_coefficient": "3/16"
+        },
+        {
+          "rational": "5/16",
+          "sqrt2_coefficient": "1/8"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "3/8",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/2",
+          "sqrt2_coefficient": "1/4"
+        },
+        {
+          "rational": "1/4",
+          "sqrt2_coefficient": "1/2"
+        },
+        {
+          "rational": "1",
+          "sqrt2_coefficient": "0"
+        }
+      ]
+    ]
+  }
+}

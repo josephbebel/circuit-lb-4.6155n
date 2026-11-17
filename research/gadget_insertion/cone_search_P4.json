@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "status": "NUMERICAL RESEARCH DIAGNOSTIC; NO RIGOROUS UPPER BOUND OR NEW RECORD",
+  "path_vertices": 4,
+  "distance_types": 4655,
+  "optimizer": "root of tree-face numerical stationarity equations in log mass ratios",
+  "optimizer_success": true,
+  "optimizer_message": "The solution converged.",
+  "stationarity_max_residual": 5.252786053344671e-14,
+  "support": [
+    {
+      "type_index": 455,
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        1,
+        1,
+        0,
+        -1,
+        -4,
+        -2
+      ],
+      "tree_mass": 0.041666666666666664,
+      "candidate_mass": 0.042074862441084555
+    },
+    {
+      "type_index": 457,
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        1,
+        1,
+        0,
+        -1,
+        -2,
+        -4
+      ],
+      "tree_mass": 0.041666666666666664,
+      "candidate_mass": 0.042074862441084555
+    },
+    {
+      "type_index": 904,
+      "type": [
+        0,
+        -1,
+        -2,
+        -1,
+        1,
+        1,
+        0,
+        -3,
+        0,
+        0
+      ],
+      "tree_mass": 0.08333333333333333,
+      "candidate_mass": 0.08088415868679368
+    },
+    {
+      "type_index": 1794,
+      "type": [
+        0,
+        -1,
+        0,
+        1,
+        1,
+        1,
+        -2,
+        1,
+        2,
+        2
+      ],
+      "tree_mass": 0.16666666666666666,
+      "candidate_mass": 0.16176831737335517
+    },
+    {
+      "type_index": 4438,
+      "type": [
+        0,
+        1,
+        2,
+        3,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "tree_mass": 0.3333333333333333,
+      "candidate_mass": 0.33659889952884103
+    },
+    {
+      "type_index": 4600,
+      "type": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        -1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "tree_mass": 0.3333333333333333,
+      "candidate_mass": 0.3365988995288411
+    }
+  ],
+  "deterministic_quadrature_orders": {
+    "64": {
+      "tree_cost_per_vertex": 0.1361262327372281,
+      "candidate_cost_per_vertex": 0.13613542578979723
+    },
+    "128": {
+      "tree_cost_per_vertex": 0.1361262327372273,
+      "candidate_cost_per_vertex": 0.13613542578979634
+    }
+  },
+  "conditional_sobol_validation": {
+    "points_per_scramble": 262144,
+    "scrambles": 4,
+    "values": [
+      {
+        "seed": 91021,
+        "tree": 0.13612645195058154,
+        "candidate": 0.13613571352662057,
+        "paired_candidate_minus_tree": 9.261576039032438e-06
+      },
+      {
+        "seed": 91022,
+        "tree": 0.13612677863865952,
+        "candidate": 0.13613622630812247,
+        "paired_candidate_minus_tree": 9.447669462953057e-06
+      },
+      {
+        "seed": 91023,
+        "tree": 0.1361268846211868,
+        "candidate": 0.13613613971479627,
+        "paired_candidate_minus_tree": 9.25509360946708e-06
+      },
+      {
+        "seed": 91024,
+        "tree": 0.136125874687524,
+        "candidate": 0.13613516793382774,
+        "paired_candidate_minus_tree": 9.293246303748726e-06
+      }
+    ],
+    "uncertainty": "Paired estimates and quadrature-order agreement are heuristic, not certified error bounds."
+  },
+  "directional_diagnostics": {
+    "direction": "m -> (1-t)m + t*e_i; derivative of expected cost per vertex at t=0",
+    "tree_max_off_face_direction": -0.0006810721050486881,
+    "tree_max_all_directions": 0.002795877230644086,
+    "candidate_max_off_face_direction": -0.001038636724071014,
+    "candidate_max_support_absolute_derivative": 5.564992910933597e-14,
+    "candidate_largest_directions": [
+      {
+        "type_index": 1794,
+        "type": [
+          0,
+          -1,
+          0,
+          1,
+          1,
+          1,
+          -2,
+          1,
+          2,
+          2
+        ],
+        "derivative": 4.4711630231564214e-14
+      },
+      {
+        "type_index": 455,
+        "type": [
+          0,
+          -1,
+          -2,
+          -3,
+          1,
+          1,
+          0,
+          -1,
+          -4,
+          -2
+        ],
+        "derivative": 3.002459392220658e-14
+      },
+      {
+        "type_index": 457,
+        "type": [
+          0,
+          -1,
+          -2,
+          -3,
+          1,
+          1,
+          0,
+          -1,
+          -2,
+          -4
+        ],
+        "derivative": 2.997949111183118e-14
+      },
+      {
+        "type_index": 4438,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          -1,
+          1,
+          2,
+          3,
+          4,
+          4
+        ],
+        "derivative": -7.814061897537528e-15
+      },
+      {
+        "type_index": 4600,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          1,
+          -1,
+          2,
+          3,
+          4,
+          4
+        ],
+        "derivative": -7.816230301882499e-15
+      },
+      {
+        "type_index": 904,
+        "type": [
+          0,
+          -1,
+          -2,
+          -1,
+          1,
+          1,
+          0,
+          -3,
+          0,
+          0
+        ],
+        "derivative": -5.564992910933597e-14
+      },
+      {
+        "type_index": 4437,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          -1,
+          1,
+          2,
+          3,
+          4,
+          3
+        ],
+        "derivative": -0.001038636724071014
+      },
+      {
+        "type_index": 4435,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          -1,
+          1,
+          2,
+          3,
+          3,
+          4
+        ],
+        "derivative": -0.0010386367240710144
+      },
+      {
+        "type_index": 4597,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          1,
+          -1,
+          2,
+          3,
+          3,
+          4
+        ],
+        "derivative": -0.0010386367240710164
+      },
+      {
+        "type_index": 4599,
+        "type": [
+          0,
+          1,
+          2,
+          3,
+          1,
+          -1,
+          2,
+          3,
+          4,
+          3
+        ],
+        "derivative": -0.0010386367240710166
+      }
+    ]
+  },
+  "interpretation": [
+    "A stationary point need not be a local or global maximum.",
+    "Negative outward first derivatives do not establish global optimality.",
+    "A relaxed cone point need not be realized by an actual graph.",
+    "A value above the tree point would obstruct a tree-extremality proof for this relaxation, but needs a rigorous comparison to become a theorem.",
+    "No graph-wide circuit or cutwidth bound is established here."
+  ],
+  "upstream_commit": "a56500014ba159397903dea81d41ac836f6880d5",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "status": "EXPLORATORY NUMERICS, NOT A CERTIFICATE OR UNIVERSAL CUTWIDTH BOUND",
+  "method": "common-tree conditional scrambled Sobol; exact Boolean cost lookup; floating Gaussian CDF",
+  "points_per_scramble": 1048576,
+  "scrambles": 8,
+  "first_seed": 1729,
+  "seeds": [
+    1729,
+    1730,
+    1731,
+    1732,
+    1733,
+    1734,
+    1735,
+    1736
+  ],
+  "batch_power": 14,
+  "common_covariance_dimension": 25,
+  "residual_gaussian_dimension": 13,
+  "uncertainty": "Variation across scrambles is heuristic and is not a rigorous error bound or confidence guarantee.",
+  "scope": "Tree marginals only, not worst-neighborhood bounds. The L=4 triangle-free kernel scheme requires uniform certification of P4 through P7; its deterministic packing argument is in PROOF.md.",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "upstream_commit": "a56500014ba159397903dea81d41ac836f6880d5",
+  "results": [
+    {
+      "path_vertices": 2,
+      "boundary_edges": 4,
+      "mean_tree_cost_per_vertex": 0.13829101192916202,
+      "replicate_values": [
+        0.1382862392960399,
+        0.13828583762051047,
+        0.13829038806817742,
+        0.13829798187092895,
+        0.1382864364935832,
+        0.13829881067158384,
+        0.13828799859080632,
+        0.138294402821666
+      ],
+      "replicate_min": 0.13828583762051047,
+      "replicate_max": 0.13829881067158384,
+      "standard_error_across_scrambles_heuristic": 1.8938535064588457e-06,
+      "tree_value_transformed_as_if_universal": 4.61556396923409,
+      "transformed_value_status": "CONDITIONAL ILLUSTRATION ONLY; neither a proved bound nor a record",
+      "paired_improvement_over_P2": 0.0,
+      "paired_improvement_standard_error_heuristic": 0.0,
+      "known_tree_reference_numerical": 0.13829180344118674,
+      "difference_from_reference": -7.915120247281582e-07
+    },
+    {
+      "path_vertices": 3,
+      "boundary_edges": 5,
+      "mean_tree_cost_per_vertex": 0.1369235888268059,
+      "replicate_values": [
+        0.13692003427687913,
+        0.1369166239937928,
+        0.1369247317393327,
+        0.136927297536466,
+        0.13692386141871662,
+        0.13692953873040234,
+        0.1369208218251444,
+        0.1369258010937132
+      ],
+      "replicate_min": 0.1369166239937928,
+      "replicate_max": 0.13692953873040234,
+      "standard_error_across_scrambles_heuristic": 1.4894305161082976e-06,
+      "tree_value_transformed_as_if_universal": 4.651671741035418,
+      "transformed_value_status": "CONDITIONAL ILLUSTRATION ONLY; neither a proved bound nor a record",
+      "paired_improvement_over_P2": 0.0013674231023561093,
+      "paired_improvement_standard_error_heuristic": 9.143522615668068e-07
+    },
+    {
+      "path_vertices": 4,
+      "boundary_edges": 6,
+      "mean_tree_cost_per_vertex": 0.13612578256256938,
+      "replicate_values": [
+        0.13612079250854606,
+        0.13611672170613834,
+        0.13613171573420896,
+        0.13612714687179858,
+        0.1361281485290515,
+        0.1361286813634187,
+        0.13612141589962767,
+        0.13613163788776528
+      ],
+      "replicate_min": 0.13611672170613834,
+      "replicate_max": 0.13613171573420896,
+      "standard_error_across_scrambles_heuristic": 1.9430142541937945e-06,
+      "tree_value_transformed_as_if_universal": 4.673073466227296,
+      "transformed_value_status": "CONDITIONAL ILLUSTRATION ONLY; neither a proved bound nor a record",
+      "paired_improvement_over_P2": 0.002165229366592622,
+      "paired_improvement_standard_error_heuristic": 1.7406265517398845e-06
+    },
+    {
+      "path_vertices": 6,
+      "boundary_edges": 8,
+      "mean_tree_cost_per_vertex": 0.1353004008505058,
+      "replicate_values": [
+        0.13529822318748838,
+        0.13528302085276864,
+        0.1353103903518955,
+        0.1353065565356426,
+        0.13530183609274482,
+        0.13529803540378135,
+        0.1352985035000412,
+        0.13530664087968372
+      ],
+      "replicate_min": 0.13528302085276864,
+      "replicate_max": 0.1353103903518955,
+      "standard_error_across_scrambles_heuristic": 2.972139370461443e-06,
+      "tree_value_transformed_as_if_universal": 4.69548055184591,
+      "transformed_value_status": "CONDITIONAL ILLUSTRATION ONLY; neither a proved bound nor a record",
+      "paired_improvement_over_P2": 0.002990611078656235,
+      "paired_improvement_standard_error_heuristic": 2.7315000726889714e-06
+    },
+    {
+      "path_vertices": 8,
+      "boundary_edges": 10,
+      "mean_tree_cost_per_vertex": 0.13488578754718022,
+      "replicate_values": [
+        0.1348811722798477,
+        0.1348726375151797,
+        0.13489259488115665,
+        0.1348911819474471,
+        0.13488643846015502,
+        0.1348856420500823,
+        0.13488387740369973,
+        0.13489275583987367
+      ],
+      "replicate_min": 0.1348726375151797,
+      "replicate_max": 0.13489275583987367,
+      "standard_error_across_scrambles_heuristic": 2.3990846191659183e-06,
+      "tree_value_transformed_as_if_universal": 4.7068397574882415,
+      "transformed_value_status": "CONDITIONAL ILLUSTRATION ONLY; neither a proved bound nor a record",
+      "paired_improvement_over_P2": 0.003405224381981778,
+      "paired_improvement_standard_error_heuristic": 2.0079414133894396e-06
+    },
+    {
+      "path_vertices": 12,
+      "boundary_edges": 14,
+      "mean_tree_cost_per_vertex": 0.13447156928359708,
+      "replicate_values": [
+        0.13446868617143962,
+        0.13446228998487195,
+        0.13447689407296698,
+        0.13447341012640066,
+        0.13447208094014962,
+        0.1344721854151544,
+        0.13447255504285524,
+        0.13447445251493817
+      ],
+      "replicate_min": 0.13446228998487195,
+      "replicate_max": 0.13447689407296698,
+      "standard_error_across_scrambles_heuristic": 1.558879860033566e-06,
+      "tree_value_transformed_as_if_universal": 4.718258087295114,
+      "transformed_value_status": "CONDITIONAL ILLUSTRATION ONLY; neither a proved bound nor a record",
+      "paired_improvement_over_P2": 0.0038194426455649307,
+      "paired_improvement_standard_error_heuristic": 1.771975476296796e-06
+    }
+  ]
+}

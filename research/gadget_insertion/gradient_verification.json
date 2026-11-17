@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "status": "EXACT FINITE WALSH CHECKS AND NUMERICAL DERIVATIVE DIAGNOSTICS; NOT AN INTERVAL CERTIFICATE",
+  "quadrature_order": 64,
+  "exact_walsh_inversion_identities": 344,
+  "all_mixed_differences_nonpositive": true,
+  "upstream_comparisons": [
+    {
+      "point": "tree",
+      "P2_cost_absolute_difference_from_gc4": 2.7755575615628914e-16,
+      "P2_gradient_max_difference_from_bk7": 3.885780586188048e-16,
+      "fourth_moment_difference_from_all_six_Plackett_path": 1.199040866595169e-14
+    },
+    {
+      "point": "generic_pd",
+      "P2_cost_absolute_difference_from_gc4": 1.1102230246251565e-16,
+      "P2_gradient_max_difference_from_bk7": 6.938893903907228e-18,
+      "fourth_moment_difference_from_all_six_Plackett_path": 5.551115123125783e-16
+    }
+  ],
+  "independent_pair_moment_identity_passed": true,
+  "P4_scalar_finite_difference_checks": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "analytic_numerical_derivative": -0.6660439707811872,
+      "central_difference": -0.666043975228181,
+      "absolute_difference": 4.446993884243966e-09,
+      "finite_difference_step": 1e-05
+    },
+    {
+      "pair": [
+        0,
+        5
+      ],
+      "analytic_numerical_derivative": -0.014091401523913522,
+      "central_difference": -0.01409140150676613,
+      "absolute_difference": 1.714739114588859e-11,
+      "finite_difference_step": 1e-05
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "analytic_numerical_derivative": -0.21974805095127734,
+      "central_difference": -0.21974805104463255,
+      "absolute_difference": 9.335521244935308e-11,
+      "finite_difference_step": 1e-05
+    }
+  ],
+  "cone_double_normalization_checks": [
+    {
+      "type_index": 455,
+      "chain_rule_derivative": 0.013084647427690641,
+      "covariance_finite_difference_derivative": 0.013084648177360155,
+      "absolute_difference": 7.496695139663778e-10
+    },
+    {
+      "type_index": 0,
+      "chain_rule_derivative": -0.25618130821958274,
+      "covariance_finite_difference_derivative": -0.25618130746226875,
+      "absolute_difference": 7.573139892969039e-10
+    },
+    {
+      "type_index": 457,
+      "chain_rule_derivative": 0.013084647427690683,
+      "covariance_finite_difference_derivative": 0.013084648177562767,
+      "absolute_difference": 7.498720845655615e-10
+    }
+  ],
+  "weighted_directional_derivative_homogeneity_error": 4.705326379902935e-15,
+  "mass_scale_invariance_max_error": 4.3021142204224816e-16,
+  "path_reversal_gradient_max_error": 1.1102230246251565e-16,
+  "saved_candidate_file": "cone_search_P4.json",
+  "recomputed_support_derivative_residual": 5.564992910933597e-14,
+  "root_check_quadrature_order": 128,
+  "interpretation": "Stationarity diagnostic only; does not establish local or global maximality.",
+  "all_checks_passed": true
+}
