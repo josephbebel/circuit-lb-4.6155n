@@ -1,0 +1,388 @@
+{
+  "status": "EXPLORATORY NATURAL-TREE NUMERICS, NOT A GLOBAL OR INTERVAL CERTIFICATE",
+  "method": "direct common-tree Gaussian scrambled Sobol sampling; exact O(k) Boolean dynamic programming; exact-mean P2 control variate",
+  "sizes": [
+    4,
+    8,
+    16,
+    24,
+    32,
+    48,
+    64,
+    128
+  ],
+  "points_per_scramble": 1048576,
+  "scrambles": 8,
+  "first_seed": 88123,
+  "seeds": [
+    88123,
+    88124,
+    88125,
+    88126,
+    88127,
+    88128,
+    88129,
+    88130
+  ],
+  "batch_power": 13,
+  "common_covariance_dimension": 257,
+  "gaussian_rank": 130,
+  "factorization_max_absolute_error": 4.218847493575595e-15,
+  "minimum_eigenvalue_binary64_diagnostic": -5.062259752350648e-15,
+  "positive_eigenvalue_threshold": 1e-11,
+  "P2_per_vertex_control_mean_exact_enclosure": [
+    "691459017205933677556909837194682484397409854403208111512577072642491/5000000000000000000000000000000000000000000000000000000000000000000000",
+    "553167213764746942045527869755745987518414711280998878529710610387193/4000000000000000000000000000000000000000000000000000000000000000000000"
+  ],
+  "reported_frontier_cutwidth_target": "1341/10000",
+  "uncertainty": "Replicate variation is heuristic; it is not a rigorous error bound or confidence guarantee.",
+  "scope": "Natural-tree points only. Their values constrain what a universal path-gadget upper bound could achieve; no global maximum, limiting theorem, or record is established.",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "elapsed_seconds": 60.55005499899926,
+  "results": [
+    {
+      "path_vertices": 4,
+      "mean_tree_cost_per_vertex": 0.13613307221903403,
+      "replicate_control_variate_values": [
+        0.13612410171999534,
+        0.1361643944598635,
+        0.13610765083803733,
+        0.13610025986208518,
+        0.13613745316042503,
+        0.1361190949298342,
+        0.13616844757570823,
+        0.13614317520632346
+      ],
+      "standard_error_across_scrambles_heuristic": 8.81607042842857e-06,
+      "raw_direct_mean": 0.13610407710075378,
+      "raw_direct_replicate_values": [
+        0.1361401081085205,
+        0.13612127304077148,
+        0.1360781192779541,
+        0.135969877243042,
+        0.13631105422973633,
+        0.1361067295074463,
+        0.13601255416870117,
+        0.1360929012298584
+      ],
+      "raw_direct_standard_error_heuristic": 3.576342370681039e-05,
+      "mean_gain_over_separate_P2_per_vertex": 0.00215873122215271,
+      "difference_from_target_0_1341": 0.002033072219034038,
+      "prefix_covariance_max_absolute_error": 1.1102230246251565e-16,
+      "circuit_coefficient_if_this_tree_value_were_universal": 4.6728767804161135
+    },
+    {
+      "path_vertices": 8,
+      "mean_tree_cost_per_vertex": 0.1348906432010134,
+      "replicate_control_variate_values": [
+        0.13489970310701926,
+        0.1348901663638552,
+        0.13486870869173606,
+        0.1348884974338015,
+        0.13488933189882835,
+        0.13486346348299583,
+        0.13493510826601585,
+        0.1348901663638552
+      ],
+      "standard_error_across_scrambles_heuristic": 7.660033393435274e-06,
+      "raw_direct_mean": 0.13485652208328247,
+      "raw_direct_replicate_values": [
+        0.1348128318786621,
+        0.13479125499725342,
+        0.13483846187591553,
+        0.1348358392715454,
+        0.13498497009277344,
+        0.13488197326660156,
+        0.13482868671417236,
+        0.13487815856933594
+      ],
+      "raw_direct_standard_error_heuristic": 2.1260365315178698e-05,
+      "mean_gain_over_separate_P2_per_vertex": 0.00340116024017334,
+      "difference_from_target_0_1341": 0.0007906432010134079,
+      "prefix_covariance_max_absolute_error": 1.1102230246251565e-16,
+      "circuit_coefficient_if_this_tree_value_were_universal": 4.706706322505278
+    },
+    {
+      "path_vertices": 16,
+      "mean_tree_cost_per_vertex": 0.1342640568233927,
+      "replicate_control_variate_values": [
+        0.13428160294069846,
+        0.13425382717623313,
+        0.1342522178508242,
+        0.1342613969661196,
+        0.13425054892077048,
+        0.13425424440874656,
+        0.13428583487047752,
+        0.1342727814532717
+      ],
+      "standard_error_across_scrambles_heuristic": 4.980134539026491e-06,
+      "raw_direct_mean": 0.13426050543785095,
+      "raw_direct_replicate_values": [
+        0.13426464796066284,
+        0.1341448426246643,
+        0.134280264377594,
+        0.13425374031066895,
+        0.13430935144424438,
+        0.1342816948890686,
+        0.1342366337776184,
+        0.13431286811828613
+      ],
+      "raw_direct_standard_error_heuristic": 1.8887761127608314e-05,
+      "mean_gain_over_separate_P2_per_vertex": 0.004027746617794037,
+      "difference_from_target_0_1341": 0.00016405682339271088,
+      "prefix_covariance_max_absolute_error": 1.1102230246251565e-16,
+      "circuit_coefficient_if_this_tree_value_were_universal": 4.724004859004718
+    },
+    {
+      "path_vertices": 24,
+      "mean_tree_cost_per_vertex": 0.13405549768779676,
+      "replicate_control_variate_values": [
+        0.1340656354444623,
+        0.13404803220603864,
+        0.13406007234428327,
+        0.13405280057762067,
+        0.13404882693463563,
+        0.1340576484220624,
+        0.13406809910311301,
+        0.1340428664701581
+      ],
+      "standard_error_across_scrambles_heuristic": 3.1457946588264644e-06,
+      "raw_direct_mean": 0.13404861589272818,
+      "raw_direct_replicate_values": [
+        0.13408331076304117,
+        0.13396652539571127,
+        0.13404985268910727,
+        0.13403554757436117,
+        0.13405203819274902,
+        0.13405835628509521,
+        0.1340543031692505,
+        0.13408899307250977
+      ],
+      "raw_direct_standard_error_heuristic": 1.3285426682079494e-05,
+      "mean_gain_over_separate_P2_per_vertex": 0.004236305753389995,
+      "difference_from_target_0_1341": -4.4502312203237304e-05,
+      "prefix_covariance_max_absolute_error": 1.1102230246251565e-16,
+      "circuit_coefficient_if_this_tree_value_were_universal": 4.729798543320134
+    },
+    {
+      "path_vertices": 32,
+      "mean_tree_cost_per_vertex": 0.13395532711519798,
+      "replicate_control_variate_values": [
+        0.13395517810358604,
+        0.13395607217325767,
+        0.13395470126642783,
+        0.13395100577845176,
+        0.133945104918619,
+        0.13395994647516807,
+        0.1339628074981173,
+        0.13395780070795615
+      ],
+      "standard_error_across_scrambles_heuristic": 1.925160165486819e-06,
+      "raw_direct_mean": 0.13396001234650612,
+      "raw_direct_replicate_values": [
+        0.13398516178131104,
+        0.1339137852191925,
+        0.13396558165550232,
+        0.13391634821891785,
+        0.13397836685180664,
+        0.1339956521987915,
+        0.13394692540168762,
+        0.13397827744483948
+      ],
+      "raw_direct_standard_error_heuristic": 1.1034834040580369e-05,
+      "mean_gain_over_separate_P2_per_vertex": 0.0043364763259887695,
+      "difference_from_target_0_1341": -0.00014467288480202178,
+      "prefix_covariance_max_absolute_error": 1.1102230246251565e-16,
+      "circuit_coefficient_if_this_tree_value_were_universal": 4.732587652673294
+    },
+    {
+      "path_vertices": 48,
+      "mean_tree_cost_per_vertex": 0.13385316227052607,
+      "replicate_control_variate_values": [
+        0.13384483997199934,
+        0.1338592841642499,
+        0.13385473434303205,
+        0.13384533667737245,
+        0.13384946926607688,
+        0.13385678076916932,
+        0.13385908548210065,
+        0.13385576749020814
+      ],
+      "standard_error_across_scrambles_heuristic": 2.066108207242553e-06,
+      "raw_direct_mean": 0.1338466927409172,
+      "raw_direct_replicate_values": [
+        0.13387717803319296,
+        0.1338163415590922,
+        0.13386569420496622,
+        0.1338274876276652,
+        0.133844256401062,
+        0.133872389793396,
+        0.13382158676783243,
+        0.13384860754013062
+      ],
+      "raw_direct_standard_error_heuristic": 8.324544059683903e-06,
+      "mean_gain_over_separate_P2_per_vertex": 0.004438641170660654,
+      "difference_from_target_0_1341": -0.00024683772947392546,
+      "prefix_covariance_max_absolute_error": 1.1102230246251565e-16,
+      "circuit_coefficient_if_this_tree_value_were_universal": 4.735436589756969
+    },
+    {
+      "path_vertices": 64,
+      "mean_tree_cost_per_vertex": 0.13380319557263454,
+      "replicate_control_variate_values": [
+        0.13379701717867454,
+        0.133805123410364,
+        0.1338077609158953,
+        0.13379075869097312,
+        0.1338009808875521,
+        0.13380816324724754,
+        0.13380986197962363,
+        0.13380589827074607
+      ],
+      "standard_error_across_scrambles_heuristic": 2.3096678606538573e-06,
+      "raw_direct_mean": 0.13380473293364048,
+      "raw_direct_replicate_values": [
+        0.13382740318775177,
+        0.1337716430425644,
+        0.13381393253803253,
+        0.1337825208902359,
+        0.1338156908750534,
+        0.13382664322853088,
+        0.1337863802909851,
+        0.13381364941596985
+      ],
+      "raw_direct_standard_error_heuristic": 7.563244718744231e-06,
+      "mean_gain_over_separate_P2_per_vertex": 0.004488607868552208,
+      "difference_from_target_0_1341": -0.0002968044273654602,
+      "prefix_covariance_max_absolute_error": 1.1102230246251565e-16,
+      "circuit_coefficient_if_this_tree_value_were_universal": 4.736831529771477
+    },
+    {
+      "path_vertices": 128,
+      "mean_tree_cost_per_vertex": 0.13372438426240285,
+      "replicate_control_variate_values": [
+        0.13372310741915305,
+        0.13372434421553214,
+        0.13372546925320228,
+        0.13372714563383659,
+        0.13372553630842765,
+        0.13372558846249183,
+        0.1337244708754023,
+        0.13371941193117698
+      ],
+      "standard_error_across_scrambles_heuristic": 8.231385623169533e-07,
+      "raw_direct_mean": 0.1337279388681054,
+      "raw_direct_replicate_values": [
+        0.13375214487314224,
+        0.13369907438755035,
+        0.133728988468647,
+        0.13371632993221283,
+        0.13373280316591263,
+        0.13373413681983948,
+        0.13372349739074707,
+        0.1337365359067917
+      ],
+      "raw_direct_standard_error_heuristic": 5.526995059259537e-06,
+      "mean_gain_over_separate_P2_per_vertex": 0.004567419178783894,
+      "difference_from_target_0_1341": -0.00037561573759714584,
+      "prefix_covariance_max_absolute_error": 1.1102230246251565e-16,
+      "circuit_coefficient_if_this_tree_value_were_universal": 4.739033855028765
+    }
+  ],
+  "odd_window_definition": "H_p(i)=sum_{j=0}^{p-1}(-1)^j product_{a=0}^j D_(i-a), with D_i=1[pendant_sign_i differs from pendant_sign_(i+1)]",
+  "odd_window_sign_change_control_mean": 0.17444286005510581,
+  "odd_window_results": [
+    {
+      "odd_window_length": 3,
+      "matching_score_coordinates": 4,
+      "positions_per_sample": 125,
+      "mean_with_P2_control": 0.1376944768197735,
+      "replicate_P2_control_values": [
+        0.13769251253380377,
+        0.1376858991004427,
+        0.1377028787948092,
+        0.13770104702486596,
+        0.13769176878704625,
+        0.13769503440632425,
+        0.13769131161942083,
+        0.13769536229147517
+      ],
+      "P2_control_standard_error_heuristic": 1.934846640132084e-06,
+      "mean_with_sign_change_control": 0.1376970915080477,
+      "sign_change_control_standard_error_heuristic": 3.0715616359614576e-06,
+      "raw_mean": 0.13769803142547607,
+      "raw_standard_error_heuristic": 6.5230910440106485e-06,
+      "difference_from_target_0_1341": 0.003594476819773512
+    },
+    {
+      "odd_window_length": 5,
+      "matching_score_coordinates": 6,
+      "positions_per_sample": 123,
+      "mean_with_P2_control": 0.13404474254755325,
+      "replicate_P2_control_values": [
+        0.13404397188190864,
+        0.1340433769863636,
+        0.13405059496346866,
+        0.1340495082690304,
+        0.13403776803179823,
+        0.13404544176637012,
+        0.1340426821440056,
+        0.13404459633748078
+      ],
+      "P2_control_standard_error_heuristic": 1.419387275240455e-06,
+      "mean_with_sign_change_control": 0.13404582078121577,
+      "sign_change_control_standard_error_heuristic": 3.609670722553598e-06,
+      "raw_mean": 0.1340482971532558,
+      "raw_standard_error_heuristic": 5.847550416918536e-06,
+      "difference_from_target_0_1341": -5.525745244674973e-05
+    },
+    {
+      "odd_window_length": 7,
+      "matching_score_coordinates": 8,
+      "positions_per_sample": 121,
+      "mean_with_P2_control": 0.13368682624736716,
+      "replicate_P2_control_values": [
+        0.13368466113019695,
+        0.1336889517409951,
+        0.1336897344829831,
+        0.13369203418781062,
+        0.13367978401708325,
+        0.13368711711249193,
+        0.13369165777955289,
+        0.13368066952782343
+      ],
+      "P2_control_standard_error_heuristic": 1.6675069194434653e-06,
+      "mean_with_sign_change_control": 0.133686093593962,
+      "sign_change_control_standard_error_heuristic": 4.050042059144627e-06,
+      "raw_mean": 0.13369038085306972,
+      "raw_standard_error_heuristic": 5.075866543810379e-06,
+      "difference_from_target_0_1341": -0.00041317375263283385
+    },
+    {
+      "odd_window_length": 9,
+      "matching_score_coordinates": 10,
+      "positions_per_sample": 119,
+      "mean_with_P2_control": 0.13365245830605393,
+      "replicate_P2_control_values": [
+        0.13365499264608793,
+        0.13365518892819023,
+        0.13365831191104882,
+        0.1336537416372568,
+        0.1336498920662652,
+        0.13364972452211665,
+        0.13365820453503435,
+        0.13363961020243154
+      ],
+      "P2_control_standard_error_heuristic": 2.1627647754000207e-06,
+      "mean_with_sign_change_control": 0.13364890122286993,
+      "sign_change_control_standard_error_heuristic": 4.079264174922939e-06,
+      "raw_mean": 0.1336560129117565,
+      "raw_standard_error_heuristic": 5.476239738272076e-06,
+      "difference_from_target_0_1341": -0.000447541693946063
+    }
+  ]
+}

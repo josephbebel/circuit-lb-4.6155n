@@ -1,5 +1,11 @@
 # A strict universal improvement from four-vertex insertion
 
+**Historical first proof.** The qualitative argument below remains an input
+to the strengthened theorem. `STABILITY_REFINEMENT.md` now proves the larger
+explicit deficit 17/(5*10^19), and `GLOBAL_REDUCTION.md` improves the packing
+conversion to kappa<=M_4/4. `FRONTIER_OBSTRUCTION.md` records why the former
+0.13614 target is below the refreshed reported frontier.
+
 ## Result and its numerical limitation
 
 This note proves a qualitative global statement about the finite P_4 cone:
@@ -20,7 +26,8 @@ companion `QUANTITATIVE_GLOBAL.md` supplies the explicit lower bound
 2M_tree-M_4>=10^(-54), using the upstream stability certificate and the
 separately certified natural P_4 neighborhood. This is a very small uniform
 improvement, not the stronger bound M_4/4<=0.13614 or 0.13615 and not a new
-leaderboard record. The numerical record-target certificate remains open.
+leaderboard record. The old 0.13614 target remains open as an intermediate
+P_4 bound, but cannot reach the refreshed reported frontier.
 
 The only large-certificate input is the existing upstream pair theorem.
 `verify_rigidity.py` supplies small exact integer/rational checks of the new

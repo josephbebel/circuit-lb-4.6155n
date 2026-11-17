@@ -1,5 +1,11 @@
 # An explicit, very small uniform P_4 improvement
 
+**Historical first quantitative proof.** This note preserves the original
+10^(-54) argument. The stronger current result and its revised constants
+are in `STABILITY_REFINEMENT.md`; the stronger graph conversion is in
+`GLOBAL_REDUCTION.md`. See `improved_bound.json` for their exact numerical
+consequence.
+
 ## Statement and certificate inputs
 
 Let M=M_tree be the exact upstream pair constant, and let M_4 be the maximum

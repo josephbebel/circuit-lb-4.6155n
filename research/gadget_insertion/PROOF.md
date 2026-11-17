@@ -5,11 +5,13 @@
 This note proves an extension of the **insertion mechanism** in `proof.md`,
 Sections 2.5 and 3.2–3.4. It specifies finite Gaussian inequalities which would
 be sufficient for a stronger universal cubic cutwidth bound. The companion
-`GLOBAL_STRATEGY.md` proves a strict universal improvement using P_2 and P_4;
-`QUANTITATIVE_GLOBAL.md` gives its explicit, very small gap 10^(-54) in the
-P_4 total-cost bound. The stronger path-cover targets developed below remain
-open. Tree evaluations, sampled cone points, and floating-point optimization
-by themselves are exploratory evidence only.
+`GLOBAL_STRATEGY.md` proves a strict universal improvement using P_2 and P_4.
+The latest `STABILITY_REFINEMENT.md` strengthens its explicit P_4 total-cost
+gap to 17/(5*10^19), and `GLOBAL_REDUCTION.md` transfers a uniform P_4 bound
+to kappa=M_4/4 without requiring P_5--P_7 bounds. The original 10^(-54)
+argument remains in `QUANTITATIVE_GLOBAL.md` as a historical first proof.
+Tree evaluations, sampled cone points, and floating-point optimization by
+themselves are exploratory evidence only.
 
 The Gaussian threshold and correlation comparison lemma used below is Lemma G
 of `proof.md`. The circuit-to-cutwidth implication is Theorem K2C there. Their
@@ -24,10 +26,15 @@ uniformly for the simple, triangle-free, 2-connected cubic kernels implies
 The upstream notation is `M = 2 kappa`; a per-vertex gadget cost is a candidate
 for `kappa`, not for `M`.
 
-For the circuit application there is a particularly concrete sufficient
-target: certify the four path inequalities for **P_4, P_5, P_6, and P_7** in
-Section 5. The kernel is triangle-free, so choosing L=4 covers it using these
-four shapes alone. No short-cycle gadget is needed for this specialization.
+Section 5 gives an alternative sufficient path-cover construction. With
+L=4, a triangle-free kernel is covered using P_4, P_5, P_6, and P_7 alone;
+no short-cycle gadget is needed. The new P_4 factor and cut decomposition
+in `GLOBAL_REDUCTION.md` make that four-shape certification unnecessary
+for a P_4-based coefficient. The updated reported frontier requires a
+changed mechanism: `FRONTIER_OBSTRUCTION.md` proves a ceiling below it
+for the present uniform P_4 relaxation. `CYCLE_WINDOWS.md` develops an
+exact Boolean route for longer paths and cycles, without claiming the
+missing uniform Gaussian bound.
 
 ## 1. A general gadget and its Boolean cost
 
@@ -356,9 +363,10 @@ Homogeneity permits the normalization sum m_t=1. It is essential that (11)
 cover the entire simplex, including its boundary and singular covariances.
 A value at the tree distribution is only one feasible value of its left
 side, and thus gives a lower bound on this supremum, not an upper bound.
-The companion quantitative proof establishes the weak bound
-beta_4=2M_tree-10^(-54). The stronger bounds required by the record-target
-path cover in Section 5 have not been certified.
+The latest stability proof establishes
+beta_4=2M_tree-17/(5*10^19). The stronger path-cover bounds in Section 5
+have not been certified. The refreshed frontier also exceeds the ceiling
+of the present uniform P4 relaxation; see `FRONTIER_OBSTRUCTION.md`.
 
 ## 5. Covering every cubic kernel: paths and short cycles
 
@@ -386,7 +394,7 @@ The finite family of shapes that must be certified is therefore
     paths P_k,   L <= k <= 2L-1;
     cycles C_c,  4 <= c < L.                                               (12)
 
-### The concrete circuit target: L=4 and only P_4 through P_7
+### The original L=4 path-cover route: P_4 through P_7
 
 The kernels of upstream Theorem K2C are simple and triangle-free. Every
 cycle of H-M therefore has length at least four. With L=4 the cycle family
@@ -473,7 +481,7 @@ the gadget cost, free-edge count, source-type collection, and covariance
 certificate must then be changed to include every such topology. The path
 code in this directory does not implement that alternative.
 
-## 6. What remains for the competitive P4-P7 target
+## 6. Certificate obligations for other gadget targets
 
 1. Choose a complete covering scheme such as (12), or prove another scheme
    covering every kernel with controlled budgets. The concrete choice
@@ -491,10 +499,20 @@ code in this directory does not implement that alternative.
    kappa into the circuit coefficient 1+1/(2 kappa).
 
 The combinatorial insertion mechanism and the sufficient certificate
-interface are established above. The separate P2/P4 matching cover and
-`QUANTITATIVE_GLOBAL.md` now prove the weak but strict improvement
-`kappa <= M_tree/2 - 10^-54/7`. The much stronger uniform P4-P7 bounds
-needed for the prospective competitive targets remain open.
+interface are established above. `STABILITY_REFINEMENT.md` and
+`GLOBAL_REDUCTION.md` now prove the strict bound
+`kappa <= M_tree/2 - 17/(20*10^19)`, using P4 alone. An optimal uniform
+certificate for that same P4 objective still cannot reach the refreshed
+reported frontier, by `FRONTIER_OBSTRUCTION.md`.
+
+The changed objective in `CYCLE_WINDOWS.md` has a complete conditional
+graph reduction. A uniform centered bound of 67/500 for H7 after a fixed
+telescoping correction, together with corresponding bounds for cycles of
+lengths 4 through 7, would imply `kappa<=67/500` and `c>=317/67`.
+No suitable correction or Gaussian bound is proved. The bare H7 bound is
+false on the relaxed P8 tree face, for either orientation or their average,
+by the rational certificate in `WINDOW_OBSTRUCTION.md`. Additional graph
+realizability or averaging arguments can change that proof obligation.
 
 ### Certified obstruction: the natural P4 tree point is not extremal
 

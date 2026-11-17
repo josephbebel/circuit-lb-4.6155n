@@ -59,7 +59,70 @@ the binary64 enclosure endpoints. Their outward decimal strings can be read
 as rational decimal bounds; other JSON floating values should be interpreted
 as binary64 diagnostics.
 
-## Reproduction
+## Wider natural region used by the improved stability proof
+
+[WIDE_NEIGHBORHOOD.md](WIDE_NEIGHBORHOOD.md) and
+[wide_neighborhood.json](wide_neighborhood.json) certify a different,
+weaker upper bound on a much wider region. Let `C_T` be the natural
+boundary covariance and set `L=C_T-(J-I)/300`. Interval integration proves
+
+```
+0.553011755222534 <= Phi_4(L) <= 0.553012975913878
+2*M_tree - Phi_4(L) > 1/10000.
+```
+
+Submodular Gaussian comparison extends the upper bound to every positive
+semidefinite unit-diagonal `C` satisfying `C_ij >= (C_T)_ij-1/300`.
+The upper coordinates are unrestricted apart from validity as a correlation
+matrix. The full two-sided radius-`1/300` box is also certified positive
+definite, but the theorem's comparison region is one-sided.
+
+[MASS_NEIGHBORHOOD.md](MASS_NEIGHBORHOOD.md) and
+[mass_neighborhood.json](mass_neighborhood.json) prove that every normalized
+nonnegative mass vector within L1 distance `9/2500=0.0036` of the natural
+mass vector maps into this comparison region. The interval derivative
+calculation includes both normalizations and directions toward all 4,655
+types. Its certified maximum downward correlation loss is less than
+`0.003263615<1/300`.
+
+The wider region supplies the local input to
+[the improved global stability proof](../STABILITY_REFINEMENT.md).
+It certifies `Phi_4<2*M_tree-1/10000`; it does not certify the stronger
+per-vertex `0.13614` bound throughout the larger mass ball.
+
+Replay from the repository root:
+
+```sh
+python -B research/gadget_insertion/certification/wide_neighborhood.py \
+  --output research/gadget_insertion/certification/wide_neighborhood.json
+python -B research/gadget_insertion/certification/mass_neighborhood.py \
+  --output research/gadget_insertion/certification/mass_neighborhood.json
+```
+
+## Separate certificate for the H7 obstruction
+
+[window_obstruction.py](window_obstruction.py) and
+[window_obstruction.json](window_obstruction.json) certify a different
+claim: an explicit positive rational point on the projected P8 tree face
+has forward H7, reversed H7, and orientation-averaged expectation each
+strictly greater than `17/125=0.136`. This exceeds the updated comparison
+target `0.1341` and rules out the corresponding bare uniform window bound
+on that relaxation.
+
+The proof uses exact Boolean lower bounds by three-score events, both
+covariance normalizations, interval Cholesky, and interval evaluation of
+the Gaussian pair-sign arcsine formula. It requires no high-dimensional
+Gaussian integration. It supplies no finite graph realization and does
+not obstruct a bound averaged over consistent neighboring windows.
+The complete argument and rational witness are in
+[WINDOW_OBSTRUCTION.md](../WINDOW_OBSTRUCTION.md).
+
+```sh
+python -B research/gadget_insertion/certification/window_obstruction.py \
+  --output research/gadget_insertion/certification/window_obstruction.json
+```
+
+## Reproduction of the original P4 certificates
 
 Requirements are Python 3, NumPy, and mpmath. No SciPy integration routine or
 LP solver is used. From the repository root:

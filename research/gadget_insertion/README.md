@@ -1,58 +1,144 @@
-# Bounded gadget insertion: reproducible research tools
+# Bounded gadget insertion: proofs, certificates, and further research
 
-This directory explores an extension of the upstream matched-edge insertion
-rule to bounded paths. The exact Boolean optimizer and the tree covariance
-formula are implemented separately from numerical Gaussian integration.
-`PROOF.md` records the graph-theoretic argument and the remaining obligations.
+This directory extends the upstream matched-edge insertion rule to bounded
+paths and cycles. The exact Boolean optimizer, graph reductions, rigorous
+Gaussian certificates, and exploratory searches have separate scopes.
+[PROOF.md](PROOF.md) gives the common ordering mechanism.
 
-**The new global argument proves a strict universal improvement**, with the
-explicit but extremely small P4 gap `10^-54`. It uses the stated upstream
-finite certificates, exact rigidity calculations, and the new interval
-certificate. The substantially stronger competitive target `kappa<=0.13614`
-remains open over the full domain. Search values for P5-P7 remain numerical.
+## Current rigorous result
 
-## Global proof and certified P4 neighborhoods
-
-[GLOBAL_STRATEGY.md](GLOBAL_STRATEGY.md) proves `M_4<2*M_tree` throughout the
-4,655-type simplex, using old-pair equality rigidity and a strict joint
-insertion gain at the uniquely forced natural P4 point. Its maximal-matching
-packing converts this to a universal kernel bound using only P2 and P4.
-[QUANTITATIVE_GLOBAL.md](QUANTITATIVE_GLOBAL.md) makes the gap explicit:
+The latest [stability refinement](STABILITY_REFINEMENT.md) and
+[P4 graph reduction](GLOBAL_REDUCTION.md) prove
 
 ```
-M_4 <= 2*M_tree - 10^-54
-kappa <= M_tree/2 - 10^-54/7
-c >= 1 + 1/(M_tree - 2*10^-54/7).
+eta   = 17/(5*10^19) = 3.4e-19
+M_4  <= 2*M_tree - eta
+kappa <= M_4/4 <= M_tree/2 - 8.5e-20
+c     >= 1 + 1/(M_tree - eta/2).
 ```
 
-This is far too small to compete with the displayed provisional record.
-The exact finite and scalar checks, including an independently refined tree
-enclosure and complete rational numerical consequences, can be replayed by:
+The exact numerical consequences, with outward rounding, are in
+[improved_bound.json](improved_bound.json). In particular,
+
+```
+c >= 4.615543275582792607402913476760178553046176686.
+```
+
+This is a strict universal improvement with a very small absolute gain.
+It uses the named upstream Gaussian theorem and finite certificates; the
+large upstream certificates were not replayed. It does not establish a
+new leaderboard record.
+
+The graph argument first produces a P4 factor with at most one P2 in
+3-edge-connected cubic graphs. A separate decomposition transfers the same
+asymptotic coefficient through all 2-edge cuts, without accumulating a
+linear assembly loss. Uniform P5--P7 certificates are unnecessary for this
+P4 route. A further [three-edge-cut reduction](GLOBAL_REDUCTION_CYCLIC3.md)
+transfers any coefficient from cyclically 4-edge-connected cubic graphs;
+it does not force arbitrarily long cycles.
+
+The original qualitative proof remains in [GLOBAL_STRATEGY.md](GLOBAL_STRATEGY.md),
+and the historical `10^-54` quantitative proof remains in
+[QUANTITATIVE_GLOBAL.md](QUANTITATIVE_GLOBAL.md). Their improved replacement
+is the theorem above.
 
 ```sh
-python -B research/gadget_insertion/verify_rigidity.py
-python -B research/gadget_insertion/verify_quantitative.py \
-  --output research/gadget_insertion/quantitative_verification.json
+python -B research/gadget_insertion/verify_stability_refinement.py \
+  --output research/gadget_insertion/stability_refinement.json
+python -B research/gadget_insertion/global_reduction_checks.py \
+  --output research/gadget_insertion/global_reduction_checks.json
+python -B research/gadget_insertion/global_reduction_cyclic3_checks.py \
+  --output research/gadget_insertion/global_reduction_cyclic3_checks.json
+python -B research/gadget_insertion/certify_improved_bound.py \
+  --output research/gadget_insertion/improved_bound.json
 ```
 
-The separate [local certification package](certification/README.md) proves:
+## Updated frontier and the limit of the P4 route
+
+On 2026-11-17 the public CircuitBreaker page reported the provisional
+coefficient `6341/1341=4.728560775540641...`, pending full mathematical
+review. Matching it through the same circuit reduction requires
+`kappa=1341/10000=0.1341`. Its underlying proof was not independently
+verified here.
+
+[FRONTIER_OBSTRUCTION.md](FRONTIER_OBSTRUCTION.md) proves that the current
+uniform P4-cone route cannot reach that coefficient. One certified feasible
+point already costs more than `0.136135422304858` per vertex, placing a
+ceiling below `4.672813376083068` on the circuit coefficient obtainable
+from a uniform bound for this particular objective. This is not a ceiling
+on other methods or on circuit complexity itself. The old `0.13614` target
+is now only an intermediate P4 bound.
+
+```sh
+python -B research/gadget_insertion/frontier_obstruction.py \
+  --output research/gadget_insertion/frontier_obstruction.json
+```
+
+## Larger certified P4 regions
+
+The [local certification package](certification/README.md) retains the
+rigorous point enclosures:
 
 | Exact P4 point | Certified cost per vertex, rounded outward |
 |---|---:|
 | Natural tree | `[0.136126085221635, 0.136126385578789]` |
 | Rationalized nonuniform candidate | `[0.136135422304858, 0.136135429221129]` |
 
-The latter exceeds the former by strictly more than `9*10^-6`. Thus the
-natural tree does not maximize this relaxed cone. For both centers, the
-entrywise off-diagonal covariance box of radius `2^-20`, and the image of
-the full-simplex L1 mass ball of radius `2^-30`, have cost per vertex below
-`6807/50000=0.13614`. These are rigorous local bounds; they do not establish
-global optimality of the nonuniform candidate.
+The candidate exceeds the natural point by strictly more than `9e-6`
+per vertex, disproving natural-tree extremality in this relaxation.
+The older entrywise covariance boxes of radius `2^-20`, and full-simplex
+mass balls of L1 radius `2^-30`, satisfy the stronger local per-vertex bound
+`0.13614`.
 
-The local package includes explicit Taylor remainders, exact point masses,
-positive-definiteness proofs, endpoint fractions, and replay instructions.
-The global conclusion also depends on the named upstream graph and finite
-certificate results. Their large certificate runs were not replayed here.
+The new [wide comparison certificate](certification/WIDE_NEIGHBORHOOD.md)
+proves the weaker total-cost bound `Phi_4<2*M_tree-1/10000` whenever a valid
+correlation matrix satisfies `C_ij >= (C_T)_ij-1/300`. The new
+[mass derivative certificate](certification/MASS_NEIGHBORHOOD.md) puts the
+entire L1 mass ball of radius `9/2500=0.0036` into that comparison region.
+This much wider neighborhood is what improves the global stability proof.
+
+## Longer paths and finite windows
+
+[CYCLE_WINDOWS.md](CYCLE_WINDOWS.md) proves an exact change-edge matching
+formula for joint path/cycle optimization and pointwise odd-window upper
+bounds. It also states the uniform Gaussian hypotheses needed to turn
+those bounds into a universal coefficient. The hypotheses remain open.
+The individual window observables are generally not submodular, so their
+Gaussian bounds cannot be obtained by reusing the P4 comparison rule.
+
+[LONG_PATH_STUDY.md](LONG_PATH_STUDY.md),
+[long_path_study.py](long_path_study.py), and
+[long_path_study.json](long_path_study.json) record a fresh study of natural
+tree paths with 16, 24, 32, 48, 64, and 128 vertices, together with odd
+stationary windows of orders 3, 5, 7, and 9. Eight independent holdouts of
+`2^20` points give P32 cost about `0.133955327` and H7 cost about `0.133686826`.
+These estimates lie below `0.1341` at the natural point; they do not bound
+an entire cone or establish a record. Means, heuristic scramble standard
+errors, raw replicates, control variates, and seeds are saved and were
+independently audited.
+
+The adversarial check is decisive for the bare window target.
+[WINDOW_ADVERSARIAL.md](WINDOW_ADVERSARIAL.md) reports above-target tree-face
+points, and [WINDOW_OBSTRUCTION.md](WINDOW_OBSTRUCTION.md) rigorously proves
+that forward H7, reverse H7, and their average each exceed `17/125=0.136`
+at one positive rational point in that relaxation. A simple three-score
+lower bound and interval arcsines suffice. This is not a graph-realizability
+or cycle-average claim. Section 7 of `CYCLE_WINDOWS.md` gives a conditional
+alternative using a potential whose contributions cancel between neighboring
+windows; no successful potential is claimed.
+
+```sh
+python -B research/gadget_insertion/cycle_windows.py \
+  --output research/gadget_insertion/cycle_window_checks.json
+python -B research/gadget_insertion/certification/window_obstruction.py \
+  --output research/gadget_insertion/certification/window_obstruction.json
+OPENBLAS_NUM_THREADS=1 python -B research/gadget_insertion/long_path_study.py \
+  --sizes 4 8 16 24 32 48 64 128 --power 20 --repeats 8 --seed 88123 \
+  --output research/gadget_insertion/long_path_study.json
+```
+
+The rest of this page documents the earlier enumerators, optimizers, and
+checks, which remain available for further work.
 
 ## Coordinates and objective
 
@@ -351,7 +437,7 @@ P5–P7. A numerical first-derivative scan at one point, finite random searches,
 and local optimization do not bound the entire cone or prove that another
 configuration cannot exceed either target.
 
-## What remains for a competitive bound
+## What remains for a stronger uniform bound
 
 `PROOF.md` gives the combinatorial insertion extension and a concrete
 graph-wide packing: choose `L=4` in a 2-factor of a triangle-free cubic kernel,
@@ -360,17 +446,25 @@ with 4 through 7 vertices. No separate short-cycle gadgets are needed for
 this choice. Matching chords remain base edges; they are not freed by the
 path-only Boolean optimizer.
 
-For the competitive target, the remaining proof obligation is a **uniform,
-rigorous Gaussian bound for P4, P5, P6 and P7 over every relevant neighborhood**, including
-coinciding boundary keys and extra edges. This is separate from evaluating
-tree points or locating a stationary point. Deterministic quadrature derivatives
-currently stop at P4; P5–P7 have numerical conditional-Gaussian search tools
-and complete type enumeration, but no rigorous integral or global supremum
-certificate. Further certification work is required for the complete L=4 target.
+That older L=4 route would require uniform rigorous Gaussian bounds for
+P4, P5, P6 and P7, including coinciding boundary keys and extra edges. The
+new graph decomposition removes the P5--P7 requirement for a P4-based
+coefficient. However, the certified obstruction shows that even an optimal
+uniform P4 bound cannot reach the updated reported frontier.
+
+The finite-window route has a complete conditional graph reduction in
+`CYCLE_WINDOWS.md`, including a version with a fixed cancelling potential.
+A centered uniform bound of `67/500` for the corrected window, together
+with the same per-vertex bound for cycles of lengths 4 through 7, would give
+`kappa<=67/500` and `c>=317/67`. Those Gaussian inputs and a suitable
+potential are unproved. The bare H7 target, even after averaging orientations,
+is rigorously false on the relaxed tree face; natural-point estimates do
+not establish its feasibility on that domain.
 
 The upstream theorem that the two-vertex tree point maximizes its 123-type
 cone cannot be reused as a tree-extremality theorem for larger gadgets.
 The new equality/stability argument gives one weak global inequality, while
 the point comparison shows natural-tree extremality itself is false for P4.
-A record-scale improvement still requires a substantially sharper global
-certificate or additional averaging/realizability constraints.
+A record improvement requires a changed objective with a uniform certificate,
+or additional averaging/realizability constraints that avoid the proved
+obstruction to the present objective.

@@ -1,0 +1,1105 @@
+{
+  "status": "RIGOROUS RELAXED-CONE OBSTRUCTION; NOT A GRAPH REALIZABILITY CLAIM",
+  "path_core_vertices": 8,
+  "witness_counts": [
+    128,
+    640,
+    64,
+    160,
+    80,
+    40,
+    20,
+    2,
+    5,
+    1
+  ],
+  "witness_count_sum": 1140,
+  "support": [
+    {
+      "type": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "mass": "32/285"
+    },
+    {
+      "type": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        1,
+        -1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "mass": "32/57"
+    },
+    {
+      "type": [
+        0,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        1,
+        1,
+        -2,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "mass": "16/285"
+    },
+    {
+      "type": [
+        0,
+        -1,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        1,
+        1,
+        0,
+        -3,
+        0,
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "mass": "8/57"
+    },
+    {
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        -1,
+        -4,
+        -1,
+        0,
+        1,
+        2,
+        2
+      ],
+      "mass": "4/57"
+    },
+    {
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -3,
+        -2,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        -2,
+        -5,
+        -2,
+        -1,
+        0,
+        0
+      ],
+      "mass": "2/57"
+    },
+    {
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -4,
+        -3,
+        1,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -6,
+        -3,
+        -2,
+        -2
+      ],
+      "mass": "1/57"
+    },
+    {
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -5,
+        1,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -7,
+        -4,
+        -4
+      ],
+      "mass": "1/570"
+    },
+    {
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        1,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -8,
+        -6
+      ],
+      "mass": "1/228"
+    },
+    {
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -7,
+        1,
+        1,
+        0,
+        -1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        -8
+      ],
+      "mass": "1/1140"
+    }
+  ],
+  "projection_boundary_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "projection_owners": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "all_boolean_assignments_checked": 256,
+  "positive_definiteness_cholesky_pivots": [
+    {
+      "exact_binary64_endpoint_fractions": [
+        "9007199254740991/9007199254740992",
+        "4503599627370497/4503599627370496"
+      ],
+      "outward_decimal_enclosure": [
+        "0.999999999999999",
+        "1.000000000000001"
+      ]
+    },
+    {
+      "exact_binary64_endpoint_fractions": [
+        "8937106561583355/36028797018963968",
+        "8937106561584217/36028797018963968"
+      ],
+      "outward_decimal_enclosure": [
+        "0.248054536954960",
+        "0.248054536954985"
+      ]
+    },
+    {
+      "exact_binary64_endpoint_fractions": [
+        "6560862220994715/36028797018963968",
+        "6560862220999125/36028797018963968"
+      ],
+      "outward_decimal_enclosure": [
+        "0.182100507478541",
+        "0.182100507478665"
+      ]
+    },
+    {
+      "exact_binary64_endpoint_fractions": [
+        "4955820111521933/18014398509481984",
+        "4955820111527397/18014398509481984"
+      ],
+      "outward_decimal_enclosure": [
+        "0.275103279685603",
+        "0.275103279685907"
+      ]
+    },
+    {
+      "exact_binary64_endpoint_fractions": [
+        "5126503680196419/18014398509481984",
+        "5126503680211831/18014398509481984"
+      ],
+      "outward_decimal_enclosure": [
+        "0.284578121078983",
+        "0.284578121079839"
+      ]
+    },
+    {
+      "exact_binary64_endpoint_fractions": [
+        "5190411040946697/18014398509481984",
+        "5190411040990539/18014398509481984"
+      ],
+      "outward_decimal_enclosure": [
+        "0.288125692246382",
+        "0.288125692248817"
+      ]
+    },
+    {
+      "exact_binary64_endpoint_fractions": [
+        "7360511887110207/36028797018963968",
+        "7360511887371745/36028797018963968"
+      ],
+      "outward_decimal_enclosure": [
+        "0.204295244252422",
+        "0.204295244259682"
+      ]
+    },
+    {
+      "exact_binary64_endpoint_fractions": [
+        "7548723730500907/36028797018963968",
+        "7548723731603189/36028797018963968"
+      ],
+      "outward_decimal_enclosure": [
+        "0.209519172303410",
+        "0.209519172334005"
+      ]
+    }
+  ],
+  "projected_covariance": [
+    [
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1",
+          "1"
+        ],
+        "outward_decimal_enclosure": [
+          "1.000000000000000",
+          "1.000000000000000"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "7810573828109317/9007199254740992",
+          "7810573828109429/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.867147889950161",
+          "0.867147889950174"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "6228219677866017/9007199254740992",
+          "778527459733263/1125899906842624"
+        ],
+        "outward_decimal_enclosure": [
+          "0.691471288879032",
+          "0.691471288879043"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "5214601687148141/9007199254740992",
+          "1303650421787053/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.578937085732105",
+          "0.578937085732114"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "8620011360590549/18014398509481984",
+          "8620011360590663/18014398509481984"
+        ],
+        "outward_decimal_enclosure": [
+          "0.478506754252902",
+          "0.478506754252909"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "3530655351501597/9007199254740992",
+          "7061310703003285/18014398509481984"
+        ],
+        "outward_decimal_enclosure": [
+          "0.391981486325309",
+          "0.391981486325315"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1625110473701479/4503599627370496",
+          "3250220947402999/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.360847013092575",
+          "0.360847013092580"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "4485498503846245/18014398509481984",
+          "8970997007692603/36028797018963968"
+        ],
+        "outward_decimal_enclosure": [
+          "0.248995185794589",
+          "0.248995185794593"
+        ]
+      }
+    ],
+    [
+      {
+        "exact_binary64_endpoint_fractions": [
+          "7810573828109317/9007199254740992",
+          "7810573828109429/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.867147889950161",
+          "0.867147889950174"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1",
+          "1"
+        ],
+        "outward_decimal_enclosure": [
+          "1.000000000000000",
+          "1.000000000000000"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "4007840277099437/4503599627370496",
+          "1001960069274873/1125899906842624"
+        ],
+        "outward_decimal_enclosure": [
+          "0.889919310931172",
+          "0.889919310931185"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "7053390368594335/9007199254740992",
+          "3526695184297213/4503599627370496"
+        ],
+        "outward_decimal_enclosure": [
+          "0.783083638888275",
+          "0.783083638888286"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "6009853724181113/9007199254740992",
+          "6009853724181191/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.667227797921511",
+          "0.667227797921521"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "626908098389429/1125899906842624",
+          "5015264787115495/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.556806244124733",
+          "0.556806244124741"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "2313565061361921/4503599627370496",
+          "2313565061361949/4503599627370496"
+        ],
+        "outward_decimal_enclosure": [
+          "0.513714640018463",
+          "0.513714640018470"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "6500441894805919/18014398509481984",
+          "6500441894805995/18014398509481984"
+        ],
+        "outward_decimal_enclosure": [
+          "0.360847013092575",
+          "0.360847013092580"
+        ]
+      }
+    ],
+    [
+      {
+        "exact_binary64_endpoint_fractions": [
+          "6228219677866017/9007199254740992",
+          "778527459733263/1125899906842624"
+        ],
+        "outward_decimal_enclosure": [
+          "0.691471288879032",
+          "0.691471288879043"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "4007840277099437/4503599627370496",
+          "1001960069274873/1125899906842624"
+        ],
+        "outward_decimal_enclosure": [
+          "0.889919310931172",
+          "0.889919310931185"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1",
+          "1"
+        ],
+        "outward_decimal_enclosure": [
+          "1.000000000000000",
+          "1.000000000000000"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "3797352752833177/4503599627370496",
+          "7594705505666453/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.843181691763822",
+          "0.843181691763834"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "6496842487472417/9007199254740992",
+          "1624210621868125/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.721294411695485",
+          "0.721294411695495"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "679305988271161/1125899906842624",
+          "2717223953084677/4503599627370496"
+        ],
+        "outward_decimal_enclosure": [
+          "0.603344919155511",
+          "0.603344919155519"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "626908098389429/1125899906842624",
+          "1253816196778873/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.556806244124733",
+          "0.556806244124741"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "7061310703003199/18014398509481984",
+          "441331918937705/1125899906842624"
+        ],
+        "outward_decimal_enclosure": [
+          "0.391981486325310",
+          "0.391981486325315"
+        ]
+      }
+    ],
+    [
+      {
+        "exact_binary64_endpoint_fractions": [
+          "5214601687148141/9007199254740992",
+          "1303650421787053/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.578937085732105",
+          "0.578937085732114"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "7053390368594335/9007199254740992",
+          "3526695184297213/4503599627370496"
+        ],
+        "outward_decimal_enclosure": [
+          "0.783083638888275",
+          "0.783083638888286"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "3797352752833177/4503599627370496",
+          "7594705505666453/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.843181691763822",
+          "0.843181691763834"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1",
+          "1"
+        ],
+        "outward_decimal_enclosure": [
+          "1.000000000000000",
+          "1.000000000000000"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "3805649031733367/4503599627370496",
+          "1902824515866707/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.845023835734563",
+          "0.845023835734574"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1624210621868105/2251799813685248",
+          "6496842487472497/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.721294411695485",
+          "0.721294411695495"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "3004926862090559/4503599627370496",
+          "1502463431045297/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.667227797921512",
+          "0.667227797921520"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "269375355018455/562949953421312",
+          "4310005680295327/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.478506754252903",
+          "0.478506754252909"
+        ]
+      }
+    ],
+    [
+      {
+        "exact_binary64_endpoint_fractions": [
+          "8620011360590549/18014398509481984",
+          "8620011360590663/18014398509481984"
+        ],
+        "outward_decimal_enclosure": [
+          "0.478506754252902",
+          "0.478506754252909"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "6009853724181113/9007199254740992",
+          "6009853724181191/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.667227797921511",
+          "0.667227797921521"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "6496842487472417/9007199254740992",
+          "1624210621868125/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.721294411695485",
+          "0.721294411695495"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "7611298063466735/9007199254740992",
+          "1902824515866707/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.845023835734563",
+          "0.845023835734574"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1",
+          "1"
+        ],
+        "outward_decimal_enclosure": [
+          "1.000000000000000",
+          "1.000000000000000"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "949338188208295/1125899906842624",
+          "7594705505666445/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.843181691763823",
+          "0.843181691763833"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "3526695184297171/4503599627370496",
+          "1763347592148605/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.783083638888275",
+          "0.783083638888285"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1303650421787037/2251799813685248",
+          "5214601687148205/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.578937085732106",
+          "0.578937085732113"
+        ]
+      }
+    ],
+    [
+      {
+        "exact_binary64_endpoint_fractions": [
+          "3530655351501597/9007199254740992",
+          "7061310703003285/18014398509481984"
+        ],
+        "outward_decimal_enclosure": [
+          "0.391981486325309",
+          "0.391981486325315"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "626908098389429/1125899906842624",
+          "5015264787115495/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.556806244124733",
+          "0.556806244124741"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "679305988271161/1125899906842624",
+          "5434447906169355/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.603344919155511",
+          "0.603344919155520"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "6496842487472419/9007199254740992",
+          "3248421243736249/4503599627370496"
+        ],
+        "outward_decimal_enclosure": [
+          "0.721294411695485",
+          "0.721294411695495"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "7594705505666359/9007199254740992",
+          "3797352752833223/4503599627370496"
+        ],
+        "outward_decimal_enclosure": [
+          "0.843181691763823",
+          "0.843181691763834"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1",
+          "1"
+        ],
+        "outward_decimal_enclosure": [
+          "1.000000000000000",
+          "1.000000000000000"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "8015680554198889/9007199254740992",
+          "2003920138549743/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.889919310931174",
+          "0.889919310931184"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "6228219677866029/9007199254740992",
+          "6228219677866093/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.691471288879034",
+          "0.691471288879042"
+        ]
+      }
+    ],
+    [
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1625110473701479/4503599627370496",
+          "3250220947402999/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.360847013092575",
+          "0.360847013092580"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "2313565061361921/4503599627370496",
+          "2313565061361949/4503599627370496"
+        ],
+        "outward_decimal_enclosure": [
+          "0.513714640018463",
+          "0.513714640018470"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "626908098389429/1125899906842624",
+          "1253816196778873/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.556806244124733",
+          "0.556806244124741"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "3004926862090559/4503599627370496",
+          "1502463431045297/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.667227797921512",
+          "0.667227797921520"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "3526695184297171/4503599627370496",
+          "1763347592148605/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.783083638888275",
+          "0.783083638888285"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "4007840277099445/4503599627370496",
+          "2003920138549743/2251799813685248"
+        ],
+        "outward_decimal_enclosure": [
+          "0.889919310931174",
+          "0.889919310931184"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1",
+          "1"
+        ],
+        "outward_decimal_enclosure": [
+          "1.000000000000000",
+          "1.000000000000000"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "3905286914054667/4503599627370496",
+          "7810573828109411/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.867147889950163",
+          "0.867147889950172"
+        ]
+      }
+    ],
+    [
+      {
+        "exact_binary64_endpoint_fractions": [
+          "4485498503846245/18014398509481984",
+          "8970997007692603/36028797018963968"
+        ],
+        "outward_decimal_enclosure": [
+          "0.248995185794589",
+          "0.248995185794593"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "6500441894805919/18014398509481984",
+          "6500441894805995/18014398509481984"
+        ],
+        "outward_decimal_enclosure": [
+          "0.360847013092575",
+          "0.360847013092580"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "7061310703003199/18014398509481984",
+          "441331918937705/1125899906842624"
+        ],
+        "outward_decimal_enclosure": [
+          "0.391981486325310",
+          "0.391981486325315"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "269375355018455/562949953421312",
+          "4310005680295327/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.478506754252903",
+          "0.478506754252909"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "5214601687148147/9007199254740992",
+          "5214601687148205/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.578937085732106",
+          "0.578937085732113"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "6228219677866029/9007199254740992",
+          "6228219677866093/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.691471288879034",
+          "0.691471288879042"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "3905286914054667/4503599627370496",
+          "7810573828109411/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.867147889950163",
+          "0.867147889950172"
+        ]
+      },
+      {
+        "exact_binary64_endpoint_fractions": [
+          "1",
+          "1"
+        ],
+        "outward_decimal_enclosure": [
+          "1.000000000000000",
+          "1.000000000000000"
+        ]
+      }
+    ]
+  ],
+  "lower_bounds": {
+    "forward": {
+      "trivariate_probability": {
+        "exact_binary64_endpoint_fractions": [
+          "4902672939423481/36028797018963968",
+          "1225668234855943/9007199254740992"
+        ],
+        "outward_decimal_enclosure": [
+          "0.136076509488866",
+          "0.136076509488875"
+        ]
+      },
+      "strict_lower_bound_for_corresponding_H7_expectation": "17/125",
+      "excess_over_frontier": {
+        "exact_binary64_endpoint_fractions": [
+          "4557520587546367/2305843009213693952",
+          "4557520587565057/2305843009213693952"
+        ],
+        "outward_decimal_enclosure": [
+          "0.001976509488866",
+          "0.001976509488875"
+        ]
+      }
+    },
+    "reverse": {
+      "trivariate_probability": {
+        "exact_binary64_endpoint_fractions": [
+          "4902672939423425/36028797018963968",
+          "4902672939423821/36028797018963968"
+        ],
+        "outward_decimal_enclosure": [
+          "0.136076509488864",
+          "0.136076509488876"
+        ]
+      },
+      "strict_lower_bound_for_corresponding_H7_expectation": "17/125",
+      "excess_over_frontier": {
+        "exact_binary64_endpoint_fractions": [
+          "4557520587542783/2305843009213693952",
+          "4557520587568193/2305843009213693952"
+        ],
+        "outward_decimal_enclosure": [
+          "0.001976509488864",
+          "0.001976509488876"
+        ]
+      }
+    },
+    "symmetric_average": {
+      "trivariate_probability": {
+        "exact_binary64_endpoint_fractions": [
+          "2451336469711725/18014398509481984",
+          "4902672939423799/36028797018963968"
+        ],
+        "outward_decimal_enclosure": [
+          "0.136076509488865",
+          "0.136076509488875"
+        ]
+      },
+      "strict_lower_bound_for_corresponding_H7_expectation": "17/125",
+      "excess_over_frontier": {
+        "exact_binary64_endpoint_fractions": [
+          "4557520587544383/2305843009213693952",
+          "4557520587566785/2305843009213693952"
+        ],
+        "outward_decimal_enclosure": [
+          "0.001976509488865",
+          "0.001976509488875"
+        ]
+      }
+    }
+  },
+  "frontier_comparison_target": "1341/10000",
+  "certified_clean_strict_lower_bound": "17/125",
+  "arithmetic": {
+    "source": "mtree/enclosure/ivarith.py",
+    "sha256": "cb1aec517a74efc071374e5cd4426e9bd05958e8d03559ed1d657d6e85186145",
+    "method": "outward binary64 elementary operations; arcsine endpoints verified by mpmath interval sine; exact rational input and output conversion",
+    "pi_enclosure_checked_against_mpmath_interval": {
+      "exact_binary64_endpoint_fractions": [
+        "7074237752028439/2251799813685248",
+        "7074237752028441/2251799813685248"
+      ],
+      "outward_decimal_enclosure": [
+        "3.141592653589792",
+        "3.141592653589794"
+      ]
+    }
+  },
+  "script_sha256": "4cd576531247b03f480266c326235316629e0a6272ffc69c44d8c1597dbeae2e",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "mpmath": "1.3.0"
+  },
+  "scope": "The covariance belongs to the positive ten-type P8 tree face after the anchor projection. This refutes a pointwise H7 or symmetrized-H7 upper bound of 0.1341 on that relaxed face. No cubic graph realizing the masses, no spatial-average obstruction, and no new circuit lower bound is established."
+}

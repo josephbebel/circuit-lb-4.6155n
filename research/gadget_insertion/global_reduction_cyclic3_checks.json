@@ -1,0 +1,1001 @@
+{
+  "status": "passed",
+  "graph_cases": 23,
+  "completed_shores": 806,
+  "small_shore_core_cases": 43,
+  "scope": "Exact finite construction checks; universal proof is in the note.",
+  "results": [
+    {
+      "name": "K4",
+      "order": 4,
+      "three_edge_cuts": 4,
+      "nontrivial_three_edge_cuts": 0,
+      "small_shore_checks": []
+    },
+    {
+      "name": "cube",
+      "order": 8,
+      "three_edge_cuts": 8,
+      "nontrivial_three_edge_cuts": 0,
+      "small_shore_checks": [
+        {
+          "T": 2,
+          "core_order": 8,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 5
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 5
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Petersen",
+      "order": 10,
+      "three_edge_cuts": 10,
+      "nontrivial_three_edge_cuts": 0,
+      "small_shore_checks": [
+        {
+          "T": 2,
+          "core_order": 10,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            },
+            {
+              "core_width": 8,
+              "expanded_width": 8
+            }
+          ]
+        },
+        {
+          "T": 3,
+          "core_order": 10,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            },
+            {
+              "core_width": 8,
+              "expanded_width": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "prism_3",
+      "order": 6,
+      "three_edge_cuts": 7,
+      "nontrivial_three_edge_cuts": 1,
+      "small_shore_checks": []
+    },
+    {
+      "name": "prism_4",
+      "order": 8,
+      "three_edge_cuts": 8,
+      "nontrivial_three_edge_cuts": 0,
+      "small_shore_checks": [
+        {
+          "T": 2,
+          "core_order": 8,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 5
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 5
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "prism_5",
+      "order": 10,
+      "three_edge_cuts": 10,
+      "nontrivial_three_edge_cuts": 0,
+      "small_shore_checks": [
+        {
+          "T": 2,
+          "core_order": 10,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 6,
+              "expanded_width": 6
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 6
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            }
+          ]
+        },
+        {
+          "T": 3,
+          "core_order": 10,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 6,
+              "expanded_width": 6
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 6
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "prism_6",
+      "order": 12,
+      "three_edge_cuts": 12,
+      "nontrivial_three_edge_cuts": 0,
+      "small_shore_checks": [
+        {
+          "T": 2,
+          "core_order": 12,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            }
+          ]
+        },
+        {
+          "T": 3,
+          "core_order": 12,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "prism_7",
+      "order": 14,
+      "three_edge_cuts": 14,
+      "nontrivial_three_edge_cuts": 0,
+      "small_shore_checks": [
+        {
+          "T": 2,
+          "core_order": 14,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 8,
+              "expanded_width": 8
+            },
+            {
+              "core_width": 8,
+              "expanded_width": 8
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            }
+          ]
+        },
+        {
+          "T": 3,
+          "core_order": 14,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 8,
+              "expanded_width": 8
+            },
+            {
+              "core_width": 8,
+              "expanded_width": 8
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            }
+          ]
+        },
+        {
+          "T": 4,
+          "core_order": 14,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 8,
+              "expanded_width": 8
+            },
+            {
+              "core_width": 8,
+              "expanded_width": 8
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "prism_8",
+      "order": 16,
+      "three_edge_cuts": 16,
+      "nontrivial_three_edge_cuts": 0,
+      "small_shore_checks": [
+        {
+          "T": 2,
+          "core_order": 16,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 9,
+              "expanded_width": 9
+            },
+            {
+              "core_width": 9,
+              "expanded_width": 9
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            }
+          ]
+        },
+        {
+          "T": 3,
+          "core_order": 16,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 9,
+              "expanded_width": 9
+            },
+            {
+              "core_width": 9,
+              "expanded_width": 9
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            }
+          ]
+        },
+        {
+          "T": 4,
+          "core_order": 16,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 9,
+              "expanded_width": 9
+            },
+            {
+              "core_width": 9,
+              "expanded_width": 9
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            }
+          ]
+        },
+        {
+          "T": 5,
+          "core_order": 16,
+          "largest_part": 1,
+          "layouts": [
+            {
+              "core_width": 9,
+              "expanded_width": 9
+            },
+            {
+              "core_width": 9,
+              "expanded_width": 9
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "random_8",
+      "order": 8,
+      "three_edge_cuts": 10,
+      "nontrivial_three_edge_cuts": 2,
+      "small_shore_checks": []
+    },
+    {
+      "name": "random_10",
+      "order": 10,
+      "three_edge_cuts": 11,
+      "nontrivial_three_edge_cuts": 1,
+      "small_shore_checks": []
+    },
+    {
+      "name": "random_12",
+      "order": 12,
+      "three_edge_cuts": 15,
+      "nontrivial_three_edge_cuts": 3,
+      "small_shore_checks": []
+    },
+    {
+      "name": "random_14",
+      "order": 14,
+      "three_edge_cuts": 16,
+      "nontrivial_three_edge_cuts": 2,
+      "small_shore_checks": [
+        {
+          "T": 4,
+          "core_order": 10,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 8,
+              "expanded_width": 9
+            },
+            {
+              "core_width": 8,
+              "expanded_width": 9
+            },
+            {
+              "core_width": 7,
+              "expanded_width": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "random_16",
+      "order": 16,
+      "three_edge_cuts": 18,
+      "nontrivial_three_edge_cuts": 2,
+      "small_shore_checks": [
+        {
+          "T": 4,
+          "core_order": 12,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 10,
+              "expanded_width": 12
+            },
+            {
+              "core_width": 10,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 9,
+              "expanded_width": 9
+            }
+          ]
+        },
+        {
+          "T": 5,
+          "core_order": 12,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 10,
+              "expanded_width": 12
+            },
+            {
+              "core_width": 10,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 9,
+              "expanded_width": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "random_18",
+      "order": 18,
+      "three_edge_cuts": 19,
+      "nontrivial_three_edge_cuts": 1,
+      "small_shore_checks": [
+        {
+          "T": 4,
+          "core_order": 16,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 16,
+              "expanded_width": 16
+            },
+            {
+              "core_width": 16,
+              "expanded_width": 16
+            },
+            {
+              "core_width": 10,
+              "expanded_width": 10
+            }
+          ]
+        },
+        {
+          "T": 5,
+          "core_order": 16,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 16,
+              "expanded_width": 16
+            },
+            {
+              "core_width": 16,
+              "expanded_width": 16
+            },
+            {
+              "core_width": 10,
+              "expanded_width": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "random_20",
+      "order": 20,
+      "three_edge_cuts": 28,
+      "nontrivial_three_edge_cuts": 8,
+      "small_shore_checks": []
+    },
+    {
+      "name": "random_22",
+      "order": 22,
+      "three_edge_cuts": 26,
+      "nontrivial_three_edge_cuts": 4,
+      "small_shore_checks": [
+        {
+          "T": 4,
+          "core_order": 14,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 11,
+              "expanded_width": 13
+            },
+            {
+              "core_width": 11,
+              "expanded_width": 13
+            },
+            {
+              "core_width": 8,
+              "expanded_width": 10
+            }
+          ]
+        },
+        {
+          "T": 5,
+          "core_order": 14,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 11,
+              "expanded_width": 13
+            },
+            {
+              "core_width": 11,
+              "expanded_width": 13
+            },
+            {
+              "core_width": 8,
+              "expanded_width": 10
+            }
+          ]
+        },
+        {
+          "T": 6,
+          "core_order": 14,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 11,
+              "expanded_width": 13
+            },
+            {
+              "core_width": 11,
+              "expanded_width": 13
+            },
+            {
+              "core_width": 8,
+              "expanded_width": 10
+            }
+          ]
+        },
+        {
+          "T": 7,
+          "core_order": 14,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 11,
+              "expanded_width": 13
+            },
+            {
+              "core_width": 11,
+              "expanded_width": 13
+            },
+            {
+              "core_width": 8,
+              "expanded_width": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "random_24",
+      "order": 24,
+      "three_edge_cuts": 25,
+      "nontrivial_three_edge_cuts": 1,
+      "small_shore_checks": [
+        {
+          "T": 4,
+          "core_order": 22,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 20,
+              "expanded_width": 20
+            },
+            {
+              "core_width": 20,
+              "expanded_width": 20
+            },
+            {
+              "core_width": 11,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 5,
+          "core_order": 22,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 20,
+              "expanded_width": 20
+            },
+            {
+              "core_width": 20,
+              "expanded_width": 20
+            },
+            {
+              "core_width": 11,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 6,
+          "core_order": 22,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 20,
+              "expanded_width": 20
+            },
+            {
+              "core_width": 20,
+              "expanded_width": 20
+            },
+            {
+              "core_width": 11,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 7,
+          "core_order": 22,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 20,
+              "expanded_width": 20
+            },
+            {
+              "core_width": 20,
+              "expanded_width": 20
+            },
+            {
+              "core_width": 11,
+              "expanded_width": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sum_K4_cube",
+      "order": 10,
+      "three_edge_cuts": 11,
+      "nontrivial_three_edge_cuts": 1,
+      "small_shore_checks": []
+    },
+    {
+      "name": "sum_Petersen_cube",
+      "order": 16,
+      "three_edge_cuts": 17,
+      "nontrivial_three_edge_cuts": 1,
+      "small_shore_checks": []
+    },
+    {
+      "name": "sum_three_cubes",
+      "order": 20,
+      "three_edge_cuts": 22,
+      "nontrivial_three_edge_cuts": 2,
+      "small_shore_checks": []
+    },
+    {
+      "name": "cube_triangle_replacements",
+      "order": 24,
+      "three_edge_cuts": 32,
+      "nontrivial_three_edge_cuts": 8,
+      "small_shore_checks": [
+        {
+          "T": 4,
+          "core_order": 8,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 6
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 8
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 7
+            }
+          ]
+        },
+        {
+          "T": 5,
+          "core_order": 8,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 6
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 8
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 7
+            }
+          ]
+        },
+        {
+          "T": 6,
+          "core_order": 8,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 6
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 8
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 7
+            }
+          ]
+        },
+        {
+          "T": 7,
+          "core_order": 8,
+          "largest_part": 3,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 6
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 8
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cube_cube_replacements",
+      "order": 56,
+      "three_edge_cuts": 64,
+      "nontrivial_three_edge_cuts": 8,
+      "small_shore_checks": [
+        {
+          "T": 8,
+          "core_order": 8,
+          "largest_part": 7,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 9,
+          "core_order": 8,
+          "largest_part": 7,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 10,
+          "core_order": 8,
+          "largest_part": 7,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 11,
+          "core_order": 8,
+          "largest_part": 7,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 12,
+          "core_order": 8,
+          "largest_part": 7,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 13,
+          "core_order": 8,
+          "largest_part": 7,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 14,
+          "core_order": 8,
+          "largest_part": 7,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 15,
+          "core_order": 8,
+          "largest_part": 7,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 16,
+          "core_order": 8,
+          "largest_part": 7,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 17,
+          "core_order": 8,
+          "largest_part": 7,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 11
+            }
+          ]
+        },
+        {
+          "T": 18,
+          "core_order": 8,
+          "largest_part": 7,
+          "layouts": [
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 5,
+              "expanded_width": 10
+            },
+            {
+              "core_width": 6,
+              "expanded_width": 11
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

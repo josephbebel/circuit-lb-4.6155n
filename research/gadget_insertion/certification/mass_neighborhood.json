@@ -1,0 +1,165 @@
+{
+  "status": "RIGOROUS MASS-NEIGHBORHOOD DERIVATIVE CHECK",
+  "certified": true,
+  "full_simplex_L1_radius": "9/2500",
+  "comparison_correlation_radius": "1/300",
+  "maximum_downward_correlation_loss_fraction": "18372519041787927/5629499534213120000",
+  "maximum_downward_correlation_loss_diagnostic": 0.003263614985689132,
+  "pairs": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "downward_slope_upper_fraction": "172346464995803/9007199254740992",
+      "correlation_loss_upper_fraction": "1551118184962227/22517998136852480000",
+      "slope_binary64_diagnostic": 0.019134301365109407
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "downward_slope_upper_fraction": "1633787262638459/18014398509481984",
+      "correlation_loss_upper_fraction": "14704085363746131/45035996273704960000",
+      "slope_binary64_diagnostic": 0.09069341181602625
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "downward_slope_upper_fraction": "5142144391973183/18014398509481984",
+      "correlation_loss_upper_fraction": "46279299527758647/45035996273704960000",
+      "slope_binary64_diagnostic": 0.2854463549957877
+    },
+    {
+      "pair": [
+        0,
+        4
+      ],
+      "downward_slope_upper_fraction": "1643128565642117/2251799813685248",
+      "correlation_loss_upper_fraction": "14788157090779053/5629499534213120000",
+      "slope_binary64_diagnostic": 0.7296956663980745
+    },
+    {
+      "pair": [
+        0,
+        5
+      ],
+      "downward_slope_upper_fraction": "1643128565642117/2251799813685248",
+      "correlation_loss_upper_fraction": "14788157090779053/5629499534213120000",
+      "slope_binary64_diagnostic": 0.7296956663980745
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "downward_slope_upper_fraction": "6535149050553833/72057594037927936",
+      "correlation_loss_upper_fraction": "58816341454984497/180143985094819840000",
+      "slope_binary64_diagnostic": 0.0906934118160262
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "downward_slope_upper_fraction": "5142144391973181/18014398509481984",
+      "correlation_loss_upper_fraction": "46279299527758629/45035996273704960000",
+      "slope_binary64_diagnostic": 0.2854463549957876
+    },
+    {
+      "pair": [
+        1,
+        4
+      ],
+      "downward_slope_upper_fraction": "6572514262568467/9007199254740992",
+      "correlation_loss_upper_fraction": "59152628363116203/22517998136852480000",
+      "slope_binary64_diagnostic": 0.7296956663980744
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "downward_slope_upper_fraction": "6572514262568467/9007199254740992",
+      "correlation_loss_upper_fraction": "59152628363116203/22517998136852480000",
+      "slope_binary64_diagnostic": 0.7296956663980744
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "downward_slope_upper_fraction": "2216305063955211/9007199254740992",
+      "correlation_loss_upper_fraction": "19946745575596899/22517998136852480000",
+      "slope_binary64_diagnostic": 0.24605929115964054
+    },
+    {
+      "pair": [
+        2,
+        4
+      ],
+      "downward_slope_upper_fraction": "1608776130134089/2251799813685248",
+      "correlation_loss_upper_fraction": "14478985171206801/5629499534213120000",
+      "slope_binary64_diagnostic": 0.7144401204568891
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "downward_slope_upper_fraction": "1608776130134089/2251799813685248",
+      "correlation_loss_upper_fraction": "14478985171206801/5629499534213120000",
+      "slope_binary64_diagnostic": 0.7144401204568891
+    },
+    {
+      "pair": [
+        3,
+        4
+      ],
+      "downward_slope_upper_fraction": "1751728920373781/2251799813685248",
+      "correlation_loss_upper_fraction": "15765560283364029/5629499534213120000",
+      "slope_binary64_diagnostic": 0.7779239121202957
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "downward_slope_upper_fraction": "3503457840747561/4503599627370496",
+      "correlation_loss_upper_fraction": "31531120566728049/11258999068426240000",
+      "slope_binary64_diagnostic": 0.7779239121202954
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "downward_slope_upper_fraction": "2041391004643103/2251799813685248",
+      "correlation_loss_upper_fraction": "18372519041787927/5629499534213120000",
+      "slope_binary64_diagnostic": 0.9065597182469811
+    }
+  ],
+  "total_P4_cost_upper_fraction": "4981098064513577/9007199254740992",
+  "two_M_tree_minus_cost_simple_strict_lower_bound": "1/10000",
+  "source_types": 4655,
+  "tree_support_indices": [
+    455,
+    457,
+    904,
+    1794,
+    4438,
+    4600
+  ],
+  "upstream_interval_arithmetic_blob": "b99d01f757f2b3d75151ba9403a547c6b8c60477",
+  "input_sha256": {
+    "research/gadget_insertion/certification/mass_neighborhood.py": "d8b6c16799757a219bb39fc77ebfe761c2015c4d973a04aaced2a4356c75bf8c",
+    "research/gadget_insertion/certification/p4_interval.py": "657ab8388f49bd438608a201ee0a1e372ea6bdbfa7f604db347525d5690fa075",
+    "research/gadget_insertion/certification/wide_neighborhood.json": "21b3b3731f385eb890f63a131a3749d3bc31cfc1feda1035bb202361141b747d",
+    "research/gadget_insertion/path_cone.py": "183250fd60bb7a21071e046ff83580f33ddb7a1e429f909eb69b8aab40fb08d1",
+    "research/mtree_refinement/certificate.json": "b25eed9811569b20a2be29406fd5fe91de4d3372ba3ac4675560326f91c4a9a6"
+  },
+  "scope": "Full normalized mass simplex L1 ball about exact natural masses; not the entire cone."
+}

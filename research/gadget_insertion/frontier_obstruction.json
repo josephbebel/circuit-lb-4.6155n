@@ -1,0 +1,36 @@
+{
+  "status": "EXACT METHOD-OBSTRUCTION COMPARISONS PASSED",
+  "reported_frontier": {
+    "source_url": "https://www.yukon.org/circuitbreaker",
+    "retrieval_date": "2026-11-17",
+    "reported_circuit_coefficient": "6341/1341",
+    "decimal_lower": "4.728560775540641312453392990305",
+    "decimal_upper": "4.728560775540641312453392990306",
+    "source_status": "Reported provisional result, pending full mathematical review; leading proof not independently verified here."
+  },
+  "cutwidth_coefficient_to_match_reported_frontier": "1341/10000",
+  "to_exceed_reported_frontier": "Need kappa < 1341/10000 under c=1+1/(2*kappa).",
+  "certified_candidate_per_vertex_lower": "4904795497312673/36028797018963968",
+  "certified_candidate_per_vertex_decimal_lower": "0.136135422304858116904213716225",
+  "certified_natural_per_vertex_lower": "4904459093436491/36028797018963968",
+  "candidate_excess_over_frontier_kappa": "45833635668503057/22517998136852480000",
+  "uniform_P4_cone_method_circuit_ceiling": "22919194006794657/4904795497312673",
+  "uniform_P4_cone_method_circuit_decimal_ceiling": "4.672813376083066980368331388975",
+  "reported_frontier_minus_method_ceiling": "366669085348024456/6577330761896294493",
+  "reported_frontier_minus_method_ceiling_decimal_lower": "0.055747399457574332085061601330",
+  "former_target_kappa": "6807/50000",
+  "former_target_circuit_coefficient": "31807/6807",
+  "former_target_would_not_reach_reported_frontier": true,
+  "natural_P4_cost_also_exceeds_frontier_target": true,
+  "input_sha256": {
+    "certification/p4_point.json": "6945afe1549857437fc45afb81adf424523b1b08d842055a325a5cf4eb066c50",
+    "certification/p4_tree.json": "0dc954b6e332bef3cda0e1bad7c848b55a858c5e57e4c0e39d01be2cd6faa48a"
+  },
+  "scope": [
+    "An upper ceiling on coefficients obtained by a uniform bound over the present relaxed P4 cone followed by the stated reduction.",
+    "Not an upper bound on circuit complexity or on all possible graph-ordering methods.",
+    "The rational candidate need not be realizable as a finite graph neighborhood.",
+    "Additional realizability or averaging arguments can change the proof obligation; changing the gadget or insertion objective can also evade this obstruction.",
+    "The public frontier is reported, not independently mathematically certified by this comparison."
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "cholesky_pivots": [
+    [
+      0.9999999999999998,
+      1.0000000000000004
+    ],
+    [
+      0.09031621017018097,
+      0.0903162101702032
+    ],
+    [
+      0.26002255116998635,
+      0.2600225511700363
+    ],
+    [
+      0.27710418876738546,
+      0.27710418876755155
+    ],
+    [
+      0.2757796661432094,
+      0.2757796661437279
+    ],
+    [
+      0.08470454852256791,
+      0.0847045485243232
+    ]
+  ],
+  "comparison_covariance_hi": [
+    [
+      1.0,
+      0.9537734478532192,
+      0.8502200572599453,
+      0.7252200572599448,
+      0.6002200572599443,
+      0.6002200572599441
+    ],
+    [
+      0.9537734478532192,
+      1.0,
+      0.8502200572599453,
+      0.7252200572599448,
+      0.6002200572599443,
+      0.6002200572599441
+    ],
+    [
+      0.8502200572599452,
+      0.8502200572599452,
+      1.0,
+      0.8502200572599456,
+      0.7252200572599453,
+      0.7252200572599452
+    ],
+    [
+      0.7252200572599448,
+      0.7252200572599448,
+      0.8502200572599456,
+      1.0,
+      0.8502200572599463,
+      0.8502200572599459
+    ],
+    [
+      0.6002200572599443,
+      0.6002200572599443,
+      0.7252200572599453,
+      0.8502200572599463,
+      1.0,
+      0.9537734478532206
+    ],
+    [
+      0.6002200572599441,
+      0.6002200572599441,
+      0.7252200572599452,
+      0.8502200572599459,
+      0.9537734478532206,
+      1.0
+    ]
+  ],
+  "comparison_covariance_lo": [
+    [
+      1.0,
+      0.9537734478532094,
+      0.8502200572599354,
+      0.725220057259936,
+      0.6002200572599365,
+      0.6002200572599367
+    ],
+    [
+      0.9537734478532094,
+      1.0,
+      0.8502200572599358,
+      0.7252200572599361,
+      0.6002200572599365,
+      0.6002200572599368
+    ],
+    [
+      0.8502200572599354,
+      0.8502200572599358,
+      1.0,
+      0.8502200572599349,
+      0.7252200572599353,
+      0.7252200572599355
+    ],
+    [
+      0.725220057259936,
+      0.7252200572599361,
+      0.850220057259935,
+      1.0,
+      0.8502200572599347,
+      0.8502200572599347
+    ],
+    [
+      0.6002200572599367,
+      0.6002200572599367,
+      0.7252200572599353,
+      0.8502200572599347,
+      1.0,
+      0.9537734478532077
+    ],
+    [
+      0.6002200572599367,
+      0.6002200572599368,
+      0.7252200572599355,
+      0.8502200572599347,
+      0.9537734478532076,
+      1.0
+    ]
+  ],
+  "comparison_point": "exact natural P4 boundary covariance minus r in every off-diagonal entry",
+  "full_simplex_L1_radius": "1/10000",
+  "full_two_sided_box_shifted_cholesky_pivots": [
+    [
+      0.9833333333333331,
+      0.9833333333333335
+    ],
+    [
+      0.05175361408592504,
+      0.051753614085946816
+    ],
+    [
+      0.23241771873467063,
+      0.2324177187347203
+    ],
+    [
+      0.24176664391777888,
+      0.24176664391795702
+    ],
+    [
+      0.24045099791026955,
+      0.24045099791086913
+    ],
+    [
+      0.04959251297249378,
+      0.04959251297465173
+    ]
+  ],
+  "input_sha256": {
+    "mtree/enclosure/ivarith.py": "cb1aec517a74efc071374e5cd4426e9bd05958e8d03559ed1d657d6e85186145",
+    "research/gadget_insertion/certification/p4_interval.py": "657ab8388f49bd438608a201ee0a1e372ea6bdbfa7f604db347525d5690fa075",
+    "research/gadget_insertion/certification/wide_neighborhood.py": "47a74b342611ee8f7b48dbb5b8ad26f15176136a993e9682cb231b42662965c6",
+    "research/mtree_refinement/certificate.json": "b25eed9811569b20a2be29406fd5fe91de4d3372ba3ac4675560326f91c4a9a6"
+  },
+  "integration": {
+    "accepted_area_exact": "1",
+    "accepted_cells": 645,
+    "attempted_cells": 1226,
+    "elapsed_seconds": 44.03397391899853,
+    "minimum_halfwidth": 0.0009765625,
+    "split_cells": 581
+  },
+  "mass_ball_Gram_entry_error_bound": "1/1250",
+  "mass_ball_edge_Gram_entry_error_bound": "8/1249",
+  "mass_ball_key_correlation_error_bound": "400/120953",
+  "mass_ball_vertex_correlation_error_bound": "2/1249",
+  "max_boolean_mixed_difference_absolute_value": 2,
+  "one_sided_neighborhood": "all PSD unit-diagonal C with C_ij >= (C_tree)_ij-radius for every i<j",
+  "radius": "1/300",
+  "rational_natural_masses": [
+    {
+      "mass": "1/24",
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        1,
+        1,
+        0,
+        -1,
+        -4,
+        -2
+      ]
+    },
+    {
+      "mass": "1/24",
+      "type": [
+        0,
+        -1,
+        -2,
+        -3,
+        1,
+        1,
+        0,
+        -1,
+        -2,
+        -4
+      ]
+    },
+    {
+      "mass": "1/12",
+      "type": [
+        0,
+        -1,
+        -2,
+        -1,
+        1,
+        1,
+        0,
+        -3,
+        0,
+        0
+      ]
+    },
+    {
+      "mass": "1/6",
+      "type": [
+        0,
+        -1,
+        0,
+        1,
+        1,
+        1,
+        -2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "mass": "1/3",
+      "type": [
+        0,
+        1,
+        2,
+        3,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "mass": "1/3",
+      "type": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        -1,
+        2,
+        3,
+        4,
+        4
+      ]
+    }
+  ],
+  "scope": [
+    "Certified at the comparison point by the existing interval Taylor integrator.",
+    "Extends to the stated one-sided region by Gaussian comparison for submodular costs.",
+    "Contains the full mass-simplex L1 ball with radius 1/10000 around the natural point.",
+    "Does not assert that every cone covariance lies in this region."
+  ],
+  "status": "RIGOROUS WIDE LOCAL NEIGHBORHOOD; NOT A WHOLE-CONE BOUND",
+  "taylor_degree": 4,
+  "total_cost_binary64_diagnostics": [
+    0.5530117552225343,
+    0.5530129759138777
+  ],
+  "total_cost_enclosure": {
+    "exact_binary64_endpoint_fractions": [
+      "4981087069503419/9007199254740992",
+      "4981098064513577/9007199254740992"
+    ],
+    "outward_decimal_enclosure": [
+      "0.553011755222534",
+      "0.553012975913878"
+    ]
+  },
+  "total_cost_upper_fraction": "4981098064513577/9007199254740992",
+  "two_M_tree_minus_cost_exact_lower_bound": "192797313586605117034404402504594901321826449106549012577072642491/1250000000000000000000000000000000000000000000000000000000000000000000",
+  "two_M_tree_minus_cost_simple_strict_lower_bound": "1/10000",
+  "upstream_interval_arithmetic_blob": "b99d01f757f2b3d75151ba9403a547c6b8c60477"
+}
